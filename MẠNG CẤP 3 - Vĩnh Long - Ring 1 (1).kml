@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>MẠNG CẤP 3 - Vĩnh Long - Ring 1.kml</name>
+	<Schema name="New Text Document" id="S_New_Text_Document_SDD">
+		<SimpleField type="string" name="Tên_trụ"><displayName>&lt;b&gt;Tên trụ&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Long"><displayName>&lt;b&gt;Long&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="Lat"><displayName>&lt;b&gt;Lat&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="sh_ylw-pushpin325">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1721">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin824">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin819</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0114</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin907">
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline551">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1023">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1021</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin257</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin009">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline460">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1314">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin426">
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline128">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2016">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline60">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1216">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin912</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin917</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline26100">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin717">
+	</Style>
+	<StyleMap id="default1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin618">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin008</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1106</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin912">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0301">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2811">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2413</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin063</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline78">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin257">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1116">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin917">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin043">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin434">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1513">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1314</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1116</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1714">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin505">
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1413">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1216</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0212</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin819">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline09">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin823">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin701</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin382</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2015">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin719">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Tên trụ</b></td><td>$[New Text Document/Tên_trụ]</td></tr>
+  <tr><td><b>Long</b></td><td>$[New Text Document/Long]</td></tr>
+  <tr><td><b>Lat</b></td><td>$[New Text Document/Lat]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="inline36">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline460</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline09</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin18100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1721</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin14100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1216">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin008">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2014">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1712">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1612</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0301</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin701">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline54">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0212">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2311">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin741">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin006">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2014</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2311</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1814">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1714</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1414</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin035">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline790">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline26100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline551</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1021">
+	</Style>
+	<StyleMap id="inline149">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline81</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline128</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin528">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin717</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin723</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin382">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1613">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin421">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0113</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin434</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin277">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2212">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2016</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin043</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline830">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline4700">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline581</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline830</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline581">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1414">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1106">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1119">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1900">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1125">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin277</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2115</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin914">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin426</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2015</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1714">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1613</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin035</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1119">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1119</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin009</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline1100">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0114">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="default0">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin519">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline81">
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1612">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0004">
+	</Style>
+	<Style id="sn_ylw-pushpin2413">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin731">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1900</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin741</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin506">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin505</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin325</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin327">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin907</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin519</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline91">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline78</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline190">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline1100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline54</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0004</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin719</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin14100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin723">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2115">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin063">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0113">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>Tên trụ</b></td><td>$[New Text Document/Tên_trụ]</td></tr>
+  <tr><td><b>Long</b></td><td>$[New Text Document/Long]</td></tr>
+  <tr><td><b>Lat</b></td><td>$[New Text Document/Lat]</td></tr>
+</table>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>MẠNG CẤP 3 - Vĩnh Long - Ring 1</name>
+		<open>1</open>
+		<Folder>
+			<name>TTCM CAT Vĩnh Long - TTCM Cái Nhum</name>
+			<Placemark>
+				<name>TTCM CAT Vinh Long</name>
+				<description>Address: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+:</description>
+				<LookAt>
+					<longitude>105.9675651</longitude>
+					<latitude>10.2337458</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>1000</range>
+				</LookAt>
+				<styleUrl>#default1</styleUrl>
+				<Point>
+					<coordinates>105.9675651,10.2337458,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TTCM Cái Nhum</name>
+				<description>Address: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+:</description>
+				<LookAt>
+					<longitude>106.11181</longitude>
+					<latitude>10.1752</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>1000</range>
+				</LookAt>
+				<styleUrl>#default1</styleUrl>
+				<Point>
+					<coordinates>106.11181,10.1752,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TTCM CAT Vĩnh Long - TTCMKV Cái Nhum</name>
+				<styleUrl>#inline4700</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						105.967564384584,10.233779688283,0 105.9674456280487,10.2337873470004,0 105.9673293361799,10.23410117336083,0 105.967338219265,10.23431534929638,0 105.9670094254959,10.23436566351555,0 105.9662112703194,10.23448074752177,0 105.9655926816662,10.23467529782823,0 105.9649916280708,10.23503469918534,0 105.9645514306492,10.23530090153022,0 105.9646491269855,10.23548928999548,0 105.9653017670406,10.23512973060524,0 105.9655659208776,10.23527495308233,0 105.9659465940682,10.23570982012219,0 105.9664384962324,10.23624890107332,0 105.9671048670598,10.23698663926774,0 105.9677335383512,10.23766894820194,0 105.9685272058181,10.23853718786512,0 105.9690013570095,10.23905397841955,0 105.9695963813971,10.23970403731654,0 105.9701002741607,10.24027721683213,0 105.9703175342141,10.24055753877282,0 105.9703715437983,10.24070301421697,0 105.9704935977733,10.24075811339243,0 105.9706683416374,10.24125278397343,0 105.9707096063911,10.24153037037428,0 105.9705017604278,10.24205827627452,0 105.9702559747552,10.24251420721415,0 105.9701218369315,10.24281299897836,0 105.9700599205646,10.24322416722535,0 105.9700789507387,10.24415016880283,0 105.970089151481,10.24506043039152,0 105.9700786255305,10.24566182561811,0 105.9700253534448,10.24630936772234,0 105.9700436723241,10.24667917407404,0 105.970000580784,10.24686589435868,0 105.9701541485221,10.24716850272577,0 105.9703798161995,10.24724759606164,0 105.9706567890093,10.24758223449517,0 105.9709723569521,10.24785204875336,0 105.9715312079245,10.24828046013206,0 105.9715095350075,10.24836108856289,0 105.9718576730589,10.24853192441041,0 105.9721445826957,10.24878739579188,0 105.9727742196775,10.24929440544775,0 105.9729330932309,10.24943719024007,0 105.9730069516143,10.24935194567973,0 105.9739117973626,10.25007081004107,0 105.9740932208783,10.25020361157757,0 105.9748954002345,10.25084717615003,0 105.9755680082068,10.25136057716189,0 105.9763790792947,10.25195577474684,0 105.977631157517,10.25289651031764,0 105.9784986977699,10.25355623860214,0 105.9786086120547,10.25361461140042,0 105.9787848109609,10.2534046258737,0 105.9788677382025,10.25346368749661,0 105.9787324247827,10.25362099421853,0 105.9787205721937,10.25370477096233,0 105.9788663970291,10.25384725135953,0 105.9801775776513,10.25481337116691,0 105.9818087621958,10.2560448771051,0 105.9834354264333,10.25729883787375,0 105.9846676197072,10.2582172657885,0 105.9865784685159,10.25967395638856,0 105.9868551399747,10.25986768440628,0 105.9874862223594,10.26009979328534,0 105.9879856440693,10.26019051348585,0 105.9884416531289,10.26016789954469,0 105.9902491102641,10.25973522902982,0 105.9915579986658,10.25944195304944,0 105.9930117251699,10.25911752617557,0 105.9949844852821,10.25871670897601,0 105.9971922479365,10.25824122359766,0 105.9989705475894,10.25785870193026,0 105.9993028933242,10.25781778556528,0 105.9997610573926,10.25762782684173,0 106.0000897385752,10.2576247491339,0 106.0009812015723,10.25737340092596,0 106.0025921706418,10.25683235479934,0 106.0045833583806,10.25607702500063,0 106.0066941776747,10.25532317794847,0 106.0101078681529,10.25407043295722,0 106.0122702405591,10.25340563173926,0 106.0157826268118,10.25225509110479,0 106.0176082526424,10.25166485760084,0 106.0186911455822,10.25135314011116,0 106.0206456058991,10.25075800041351,0 106.0222863084173,10.25028326932557,0 106.0241595387295,10.24970334487555,0 106.0261205672433,10.24909008405294,0 106.0272239601323,10.24865689862254,0 106.0284333939764,10.24810108646043,0 106.0310596872477,10.24690991559071,0 106.0326811753503,10.24619436667298,0 106.034695944989,10.24531721955829,0 106.0351090686426,10.24519005607164,0 106.0361683062341,10.24518427249036,0 106.0365755537287,10.2451823435428,0 106.0370160835643,10.24484324107711,0 106.0374879372283,10.24432302766528,0 106.0378939664893,10.24394609745224,0 106.0381406627077,10.24383434612542,0 106.0393036570546,10.24348559744341,0 106.0415004325694,10.24288827808014,0 106.0435186679533,10.24229055461224,0 106.0449039100839,10.24188646163016,0 106.0463312090993,10.24162245427424,0 106.0479201540911,10.24131989867122,0 106.0491771124972,10.24104817809876,0 106.0515322598322,10.24054652520413,0 106.0522801646595,10.24037693512737,0 106.053837689712,10.24006757451562,0 106.0554814609439,10.23973343894833,0 106.0558826728358,10.23965042612294,0 106.0564655953819,10.23963687122726,0 106.0577039971486,10.2397620766037,0 106.0599894105354,10.24000056898763,0 106.0631869818857,10.2402802361446,0 106.063483417659,10.24025803129417,0 106.0641863746952,10.2401389656934,0 106.0650188776403,10.23997478571117,0 106.0665091752943,10.23966442057285,0 106.0673147371441,10.23948313044764,0 106.0685397522825,10.23921722697024,0 106.0699343516413,10.23895071029772,0 106.0704297681548,10.23881316749492,0 106.0712324777905,10.23866817613614,0 106.0719239782872,10.23853958841894,0 106.0731553422524,10.23826472167201,0 106.0743669883672,10.23803754031919,0 106.0755604398827,10.23777372252484,0 106.0765427768903,10.23759342901128,0 106.0776809713894,10.23737293295879,0 106.0784716484725,10.23719890922699,0 106.0790269432128,10.23712798801847,0 106.0791679927544,10.23702263524448,0 106.0794775870569,10.23689609835033,0 106.0797321258476,10.23708160992517,0 106.0800295167627,10.23718923010435,0 106.0807110406675,10.23704616785,0 106.0819106235068,10.23677088350262,0 106.0833164506551,10.2365444236058,0 106.0838230127997,10.23644183254159,0 106.084448240913,10.23634137430771,0 106.0851260653946,10.23624445062559,0 106.0861701335433,10.23608709595511,0 106.0865989755932,10.2360297702362,0 106.0871122764346,10.23592173351433,0 106.0876925239676,10.23582221607085,0 106.0878317752699,10.23568953639173,0 106.08830278364,10.23558334239994,0 106.088624533189,10.2354812879849,0 106.0893832933803,10.23515833152669,0 106.0919893012021,10.23409162309138,0 106.09245631426,10.23397668883575,0 106.0928474337928,10.23393707717907,0 106.0937126821369,10.23386750606905,0 106.0940673758776,10.23377263575299,0 106.0948847604187,10.23352308937944,0 106.0963932795609,10.23300471571704,0 106.0971041045526,10.23275603307328,0 106.0982292505644,10.23242363609922,0 106.0990029961439,10.23223885982244,0 106.0987814918423,10.23151670953052,0 106.0986012633661,10.23090344100307,0 106.0983154469672,10.22983016097091,0 106.0981055853004,10.22900407650546,0 106.0979302480643,10.22808732748643,0 106.0977417505415,10.2271366422741,0 106.0974779405868,10.22587134827608,0 106.0973210182637,10.2249080584432,0 106.097103472458,10.22393612077842,0 106.096881158179,10.22285819843435,0 106.096612323176,10.22178567429081,0 106.0963080312358,10.2209031089843,0 106.0960925098561,10.22050749196831,0 106.0956908056526,10.21992814770206,0 106.0950354160192,10.21901705769703,0 106.0936641125782,10.2171176690839,0 106.0935282426973,10.21696010858651,0 106.0932025954502,10.2158754192493,0 106.0918701784992,10.2143743877548,0 106.0911210955422,10.21355835480808,0 106.0902910896572,10.21262944701876,0 106.0900889175423,10.21242806613548,0 106.0899939067481,10.21226450803936,0 106.0898952364531,10.21201388029307,0 106.0897324513597,10.21097866870612,0 106.0895581774208,10.21066108989025,0 106.0891654079082,10.21021228083722,0 106.0884183698738,10.20961658375908,0 106.0879826989113,10.20925508889479,0 106.087440732229,10.20892832389557,0 106.0868137016485,10.20834579772396,0 106.0869330210761,10.20820739518712,0 106.0871933669747,10.20795676725891,0 106.0879029555415,10.2071246526987,0 106.088287916644,10.20660310850806,0 106.0884713349751,10.20628982700478,0 106.0892930770274,10.20542594462299,0 106.0900830112484,10.20459748267046,0 106.0910615105187,10.20356128235859,0 106.0917099747737,10.2027436306714,0 106.0921340034367,10.20203025201465,0 106.0925420200149,10.20140690984373,0 106.0929891602061,10.20065572499873,0 106.0935012313985,10.19975799015962,0 106.0942486925208,10.19857195301343,0 106.094648601889,10.19791015955196,0 106.0950639623091,10.19719843449976,0 106.0954368123325,10.19653866286157,0 106.0957882657,10.19617580382693,0 106.0962611768206,10.19581397791904,0 106.0964780129532,10.19539546802998,0 106.096531541929,10.19495033294891,0 106.0964822628603,10.19432498660195,0 106.0963727826021,10.19387878088281,0 106.0963300127039,10.19347838232871,0 106.0967107947437,10.19324151353817,0 106.0972932456446,10.19300980864454,0 106.0975770250424,10.19287013941917,0 106.0982337665054,10.19207869246179,0 106.0986053375912,10.19158497980851,0 106.0992474871195,10.19055736825753,0 106.0997029309405,10.19007399151118,0 106.1000215403711,10.18969934243167,0 106.100475502799,10.18877069974147,0 106.100844332746,10.18807970006696,0 106.101276103087,10.18731267946489,0 106.1014844801994,10.18692754380109,0 106.1022287585048,10.18570168206545,0 106.102787272599,10.18493839830565,0 106.1036020610814,10.18379083206364,0 106.1040906218124,10.18263597612915,0 106.1046514022671,10.1815212104968,0 106.1050016715077,10.18077207207559,0 106.1053024083009,10.17986546397314,0 106.1054928734236,10.17851305044715,0 106.1056538084549,10.17697406189364,0 106.1058001137514,10.17623831823858,0 106.1060843510152,10.17530200917848,0 106.1062455604104,10.174734288765,0 106.1063847662894,10.174204581967,0 106.1076929796741,10.1744328974612,0 106.1094075022103,10.17474036343899,0 106.1093422642709,10.17438262453933,0 106.110067286821,10.17307170687425,0 106.1102573197081,10.17307759372974,0 106.1112042636464,10.17423695310666,0 106.111933774485,10.17509392614421,0 106.1118053811156,10.17519853969367,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Folder>
+				<name>Ngầm VNPT</name>
+				<open>1</open>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>TTCM Cái Nhum - TTCM Trung Thành</name>
+			<Placemark>
+				<name>TTCM Trung Thành</name>
+				<description>Address: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+:</description>
+				<LookAt>
+					<longitude>106.19039</longitude>
+					<latitude>10.096158</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>1000</range>
+				</LookAt>
+				<styleUrl>#default1</styleUrl>
+				<Point>
+					<coordinates>106.19039,10.096158,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TTCM Cái Nhum</name>
+				<description>Address: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+:</description>
+				<LookAt>
+					<longitude>106.11181</longitude>
+					<latitude>10.1752</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>1000</range>
+				</LookAt>
+				<styleUrl>#default1</styleUrl>
+				<Point>
+					<coordinates>106.11181,10.1752,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TTCM KV Cái Nhum - TTCMKV Trung Thành</name>
+				<styleUrl>#inline790</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.1118078266697,10.1752110229557,0 106.1120101887803,10.17526791142965,0 106.1121838165174,10.17520908032625,0 106.1126629580901,10.17584060824951,0 106.1132312935542,10.17651813173888,0 106.1143615026177,10.17785810690979,0 106.1142589473068,10.17803231888155,0 106.1141595304021,10.17833695112445,0 106.1145303509602,10.17863218671949,0 106.1147403164205,10.17863125166682,0 106.1153085916553,10.17925800137549,0 106.1155890743732,10.17897235544183,0 106.1159644659051,10.17859081851926,0 106.1166409250576,10.17868022429019,0 106.1172629939445,10.17862374108498,0 106.1186066885333,10.17836440665184,0 106.1203916816494,10.17804200871139,0 106.1208907757174,10.17802002767636,0 106.12156654527,10.17794217664268,0 106.1221031990451,10.17761355489273,0 106.1229136844253,10.17747212861056,0 106.1234902014234,10.1773262928087,0 106.1244195845378,10.17716031811347,0 106.1247524832123,10.17709850362213,0 106.1251737287246,10.17701967776651,0 106.125874089416,10.17690141185516,0 106.1265634271972,10.17664326648366,0 106.1269362817973,10.17658469940991,0 106.1278497181767,10.17616466753384,0 106.1284219485203,10.17591777458958,0 106.129225043896,10.17555626930147,0 106.130273766893,10.17510708849479,0 106.130651377821,10.17480674006713,0 106.1308914125042,10.17467292785399,0 106.1313013927048,10.1744197516502,0 106.1316858224901,10.17418430896246,0 106.1323156292607,10.17400919459675,0 106.1328481726254,10.17407628279729,0 106.1340987597254,10.17383891200807,0 106.1352869963197,10.1735949277982,0 106.1363547206473,10.17337226873856,0 106.1379804898487,10.1729688522163,0 106.1396479191731,10.17245549109835,0 106.1408692273401,10.17190084346685,0 106.1427252078654,10.17117425437051,0 106.1445905814792,10.17037942994446,0 106.1462876693964,10.16962577032184,0 106.1483002323343,10.16884708350909,0 106.1496299868518,10.16855310500361,0 106.1503025815114,10.16842507812027,0 106.1508349906094,10.16829005718618,0 106.1523346720507,10.16786810873859,0 106.1531755618385,10.16774250368517,0 106.1540944341978,10.16758582052584,0 106.154685323731,10.16748894226772,0 106.1544992764058,10.16558206230589,0 106.1547228242943,10.16502895089649,0 106.1547863699119,10.16427019750122,0 106.1549524614495,10.16333784560247,0 106.1552402205994,10.16197747715892,0 106.1555234732802,10.16057875804278,0 106.1557211326153,10.15951031312953,0 106.1570494178549,10.15726183265155,0 106.1581949470062,10.15604865103799,0 106.1584131794229,10.15663088177043,0 106.1586054720207,10.1569525550335,0 106.1593839465848,10.1574707992781,0 106.1604957386203,10.15811302084503,0 106.1616492074729,10.15879963964129,0 106.1628838589931,10.15966803974999,0 106.1640378777117,10.16060650166947,0 106.1646000945226,10.16065648512929,0 106.1645947558911,10.16048851835089,0 106.1644779071275,10.15949773255076,0 106.1643393338669,10.15825473397981,0 106.164169170387,10.15696970592299,0 106.163979901897,10.15586982732138,0 106.1635516392402,10.15487525630289,0 106.1639624064156,10.15361316442128,0 106.164448613781,10.15261561389465,0 106.1649981461556,10.15138379965076,0 106.1655919676363,10.15006264967523,0 106.1661302838254,10.14888338517827,0 106.1666528448254,10.14768810753139,0 106.1671750733442,10.14647636327261,0 106.1672431155643,10.14628974634957,0 106.1673637331592,10.14570300597478,0 106.1673300675945,10.14463900828711,0 106.1672563316135,10.1428495529398,0 106.1671621661263,10.14071536711348,0 106.1669823796499,10.1336249908466,0 106.1669764522744,10.13325206322104,0 106.1677763081043,10.13132663339235,0 106.1692447862409,10.12792373687863,0 106.1728875900094,10.11938032384059,0 106.1773853012934,10.10869106769064,0 106.1777186787987,10.10832537777502,0 106.1778996027901,10.10809021989236,0 106.1784836552566,10.10755168694281,0 106.1793822522433,10.10662018336189,0 106.1800320066334,10.10590365411751,0 106.1808212913827,10.10509323297786,0 106.1818074495553,10.10407885327821,0 106.1829195027787,10.10293496309957,0 106.1841009576066,10.10176562700084,0 106.1841776673022,10.10163612423095,0 106.1846792597113,10.10102319373142,0 106.1849792190964,10.10068388863034,0 106.1849053988516,10.10047286456681,0 106.1849444146457,10.10031263964487,0 106.1849156871282,10.09886219931936,0 106.1847991032573,10.09850477846562,0 106.1850047888537,10.09842393273985,0 106.1851263269481,10.09750136496836,0 106.1850213411049,10.09733268704953,0 106.185240417795,10.09639732401033,0 106.1853179131322,10.09583052339235,0 106.1858090090819,10.09590410328762,0 106.1865043511227,10.09608081386974,0 106.1869431039977,10.09617115140974,0 106.1869085954554,10.09604444245768,0 106.1877258698982,10.09622237008773,0 106.1883097613328,10.09637816213434,0 106.1888667715936,10.09648291290265,0 106.1898250703629,10.09663518543735,0 106.1902820000674,10.09671315490118,0 106.1903959890469,10.09619162080776,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>TTCM Trung Thành - TTCM Long Hồ</name>
+			<Placemark>
+				<name>Điểm 1: 471VLi/118/P25/P7/3A</name>
+				<description>Vĩ độ: 10.0966, Kinh độ: 106.1897</description>
+				<styleUrl>#msn_ylw-pushpin1712</styleUrl>
+				<Point>
+					<coordinates>106.1897,10.0966,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 2: 471VLi/T118/P25/3A/11</name>
+				<description>Vĩ độ: 10.0931, Kinh độ: 106.1904</description>
+				<styleUrl>#msn_ylw-pushpin18100</styleUrl>
+				<Point>
+					<coordinates>106.190586,10.09312188777179,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 3: Trụ HT16</name>
+				<description>Vĩ độ: 10.0918, Kinh độ: 106.1875</description>
+				<styleUrl>#msn_ylw-pushpin1712</styleUrl>
+				<Point>
+					<coordinates>106.1875,10.0918,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 5: 473-471VLi/79</name>
+				<description>Vĩ độ: 10.079885, Kinh độ: 106.170406</description>
+				<styleUrl>#msn_ylw-pushpin18100</styleUrl>
+				<Point>
+					<coordinates>106.1703962367666,10.07969769145256,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 7: 472VLi/T30</name>
+				<description>Vĩ độ: 10.0938, Kinh độ: 106.0897</description>
+				<styleUrl>#msn_ylw-pushpin1712</styleUrl>
+				<Point>
+					<coordinates>106.0897,10.0938,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 8: 472VLi/T56</name>
+				<description>Vĩ độ: 10.0988, Kinh độ: 106.0775</description>
+				<styleUrl>#msn_ylw-pushpin1712</styleUrl>
+				<Point>
+					<coordinates>106.0775,10.0988,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 9: Ngã 4 Cầu mới</name>
+				<description>Vĩ độ: 10.103314, Kinh độ: 106.081774</description>
+				<styleUrl>#msn_ylw-pushpin1712</styleUrl>
+				<Point>
+					<coordinates>106.081774,10.103314,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 10: 472.../T10/1</name>
+				<description>Vĩ độ: 10.103704, Kinh độ: 106.081133</description>
+				<styleUrl>#msn_ylw-pushpin731</styleUrl>
+				<Point>
+					<coordinates>106.0810612237103,10.10374496571811,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 11: Trụ Hạ Thế 25</name>
+				<description>Vĩ độ: 10.10399, Kinh độ: 106.081115</description>
+				<styleUrl>#msn_ylw-pushpin1712</styleUrl>
+				<Point>
+					<coordinates>106.081115,10.10399,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TTCM Trung Thành - Điểm 2 (471VLi/T118/P25/3A/11)</name>
+				<description>Khoảng cách: 0.40 km (Tuyến đường nổi)</description>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<LineString>
+					<coordinates>
+						106.1903977910328,10.09616671024638,0 106.1904075464607,10.09603391909068,0 106.1899214005072,10.09590878739309,0 106.1905739191784,10.09312088882521,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 2 (471VLi/T118/P25/3A/11) - Điểm 3 (Trụ HT16)</name>
+				<description>Khoảng cách: 0.35 km (Tuyến đường nổi)</description>
+				<styleUrl>#msn_ylw-pushpin006</styleUrl>
+				<LineString>
+					<coordinates>
+						106.190589530422,10.09312221000199,0 106.1875,10.0918,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 3 (Trụ HT16) - Điểm 4 (473-471VLi/118)</name>
+				<description>Khoảng cách: 1.04 km (Tuyến đường nổi)</description>
+				<styleUrl>#msn_ylw-pushpin5</styleUrl>
+				<LineString>
+					<coordinates>
+						106.187497,10.091798,0 106.18752,10.091756,0 106.187543,10.091714,0 106.187655,10.091457,0 106.1881437713636,10.09010051421944,0 106.1884533891831,10.08935430986949,0 106.1887714080589,10.08851945462786,0 106.1890817693142,10.08760621396428,0 106.1894344778484,10.08654113121736,0 106.1895497740773,10.08611736788261,0 106.189948156916,10.08477468449756,0 106.1901997286652,10.08388122556341,0 106.1903824135487,10.08321067309347,0 106.1901992881437,10.08306351290722,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 4 (473-471VLi/118) -Điểm 6 (471VLi/107)</name>
+				<description>Khoảng cách: 2.32 km (Tuyến đường nổi)</description>
+				<styleUrl>#msn_ylw-pushpin3</styleUrl>
+				<LineString>
+					<coordinates>
+						106.1901983717138,10.08305775559381,0 106.1900059734499,10.08327808358625,0 106.1896446019314,10.08362144174681,0 106.1890285307244,10.08396294723989,0 106.1884366149719,10.08423988948283,0 106.188038423776,10.08430872485168,0 106.1874591541101,10.084308721589,0 106.1867962854083,10.08415836878798,0 106.1860622008885,10.08400252141705,0 106.1852241834911,10.08381736225162,0 106.1842063934552,10.0836124359882,0 106.183115212201,10.0832819144848,0 106.1804331011645,10.08251772274268,0 106.1793236830516,10.08222416094846,0 106.1782219651279,10.08190276651683,0 106.1771651260921,10.08157333026765,0 106.1765979350054,10.08140860776356,0 106.1755207110664,10.08113139832384,0 106.1732146760705,10.08045839053385,0 106.1713477777246,10.07995443666532,0 106.1680449137226,10.07903986228881,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 6 (471VLi/107) - Điểm 7 (472VLi/T30)</name>
+				<description>Khoảng cách: 9.05 km (Tuyến đường nổi)</description>
+				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+				<LineString>
+					<coordinates>
+						106.1680382132551,10.07903859181082,0 106.1672278883691,10.07883065277229,0 106.1667501442924,10.07871958357095,0 106.165131963035,10.07819527023329,0 106.1626632996644,10.07751456193437,0 106.1621018937153,10.07726297217516,0 106.1612684462051,10.07681884371342,0 106.1604304776734,10.07640363512034,0 106.1592312177999,10.07581687374196,0 106.1580797348059,10.07518951909714,0 106.1571400321595,10.07466733566842,0 106.1566947110645,10.07445279691959,0 106.1563882428608,10.07431233066984,0 106.1560447887163,10.07414065028686,0 106.1556194352974,10.07404440529845,0 106.1551755876996,10.07404700625322,0 106.1547475894927,10.07413544732174,0 106.1545335890387,10.0741848703984,0 106.1538942853837,10.07439192105229,0 106.1527487100391,10.07467089743271,0 106.150004,10.075433,0 106.147569,10.076043,0 106.147467,10.076068,0 106.145908,10.076465,0 106.142945,10.07719,0 106.140836,10.077719,0 106.138338,10.078363,0 106.137515,10.078588,0 106.137415,10.078615,0 106.137094,10.078703,0 106.137061,10.078712,0 106.136747,10.078792,0 106.136728,10.078797,0 106.136233,10.078928,0 106.135397,10.079149,0 106.13526,10.079186,0 106.133499,10.079643,0 106.132232,10.079968,0 106.13067,10.080365,0 106.128993,10.080791,0 106.1277,10.081103,0 106.127458,10.081162,0 106.125676,10.081636,0 106.123659,10.082148,0 106.122697,10.082396,0 106.122016,10.082583,0 106.121459,10.082796,0 106.121386,10.082826,0 106.1206538263053,10.08305314250939,0 106.1199935989894,10.08333318494741,0 106.118912069581,10.0838027290014,0 106.1173282977031,10.08452026128154,0 106.1167447107917,10.08474766487566,0 106.1154598091134,10.08528429812241,0 106.1141832042282,10.08569265307816,0 106.113458,10.085953,0 106.112326,10.086285,0 106.111075,10.086685,0 106.109594,10.087135,0 106.108062,10.087611,0 106.1066137414224,10.0880098876144,0 106.1052582846829,10.08841544490628,0 106.104254913511,10.08872456171948,0 106.1032036618051,10.08907989596666,0 106.1022803517233,10.08936807658425,0 106.100595499799,10.0898945163065,0 106.097328,10.090973,0 106.0940802530875,10.09192536132206,0 106.0935102439164,10.09210358212142,0 106.0924112409908,10.0924667030313,0 106.0910056448078,10.09288268875673,0 106.0900983492942,10.09327199847329,0 106.0892041478969,10.09379041882434,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 7 (472VLi/T30) - Điểm 8 (472VLi/T56)</name>
+				<description>Khoảng cách: 1.45 km (Tuyến đường nổi)</description>
+				<styleUrl>#msn_ylw-pushpin823</styleUrl>
+				<LineString>
+					<coordinates>
+						106.0892146444039,10.09378500615295,0 106.0775,10.0988,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 8 (472VLi/T56) - Điểm 16 (trụ hạ thế 25)</name>
+				<styleUrl>#inline149</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.0811201172198,10.10401463127318,0 106.0810591277614,10.10374586841686,0 106.0817811354747,10.10331012769798,0 106.0809977849183,10.10217799637568,0 106.080562942456,10.10156813795804,0 106.0802206145518,10.10106496108777,0 106.079598116153,10.10051391093404,0 106.0790830246571,10.10008239181694,0 106.0783602089961,10.09949047800674,0 106.0774983024683,10.09880209598049,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 16 (trụ hạ thế 25) - Điểm 10 (472-474VLi/75)</name>
+				<styleUrl>#inline190</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.0736387177385,10.109568058443,0 106.0745300414557,10.10902264977216,0 106.0768610956109,10.10720087195595,0 106.0769441584252,10.10726159400999,0 106.0779240270018,10.10654848519538,0 106.0786811750163,10.10600020395044,0 106.0811203112222,10.10401134442537,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 10 (472-474/VLi/75) - TTCM Long Hồ</name>
+				<styleUrl>#inline91</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.0075260442641,10.19713847385311,0 106.0077401311826,10.19692734319243,0 106.0078889658349,10.19710283393548,0 106.008993783214,10.19630201925951,0 106.0094479756488,10.19582303591225,0 106.0100601776566,10.19499520946762,0 106.0104660946649,10.19435618033437,0 106.0109497568886,10.19376660541161,0 106.0114876390837,10.19307350810719,0 106.0119673858151,10.19249683496852,0 106.0123628778343,10.19217913610258,0 106.0125782263611,10.1919227219443,0 106.01283729614,10.19186458894792,0 106.0136029994647,10.19149808258712,0 106.0147723998884,10.19106104980535,0 106.0156121180581,10.1907131313785,0 106.0163977230869,10.19022741259776,0 106.0169844322175,10.18962334592838,0 106.0173623216276,10.18908524526427,0 106.0177947551484,10.18842858657171,0 106.0183329402883,10.18768963107892,0 106.0189034112703,10.18685560973647,0 106.0195308474797,10.18593614183395,0 106.0200228996312,10.18505572327966,0 106.0204119031582,10.18427129617963,0 106.0209457143843,10.18317212296648,0 106.0210595676676,10.18290877897506,0 106.0212170643948,10.18230364882443,0 106.0212327295575,10.18149003219475,0 106.0212858554005,10.18044599599243,0 106.0213308546728,10.17919489479627,0 106.0212868376842,10.17839983487799,0 106.0211988087909,10.17800230549234,0 106.0208622332382,10.17717157135703,0 106.0202862477911,10.17594168367898,0 106.0198487066922,10.17466755084232,0 106.0193274356216,10.17337558004832,0 106.0190348831609,10.17261109969048,0 106.0189287360417,10.17237411084719,0 106.0190918419484,10.17145062157612,0 106.0193274426281,10.16992165802694,0 106.0195732979357,10.16825441525041,0 106.0197945774642,10.1666088373674,0 106.0199887476931,10.16512319425509,0 106.0203537820609,10.16363245363802,0 106.020646326583,10.16235577053341,0 106.0209400155824,10.16123783547872,0 106.0211186510672,10.16031715762565,0 106.0213136141755,10.15962639218174,0 106.0217085821268,10.15879549897621,0 106.0221039518011,10.15789778005823,0 106.0225370176983,10.15692160257825,0 106.0229560307584,10.15601828803019,0 106.0233443062449,10.15508148611007,0 106.0237253813801,10.15420279421767,0 106.0239172947218,10.15372886037782,0 106.0241739262202,10.15321065911633,0 106.0247230258078,10.15248157676676,0 106.0253014465573,10.15176615671241,0 106.0247054830674,10.14863567876721,0 106.0331490601228,10.14488885159292,0 106.0336159624978,10.144913309332,0 106.0355540523715,10.14344923225572,0 106.0366315510456,10.14257880937701,0 106.0386322285233,10.14098646573991,0 106.0405954489351,10.13941090269446,0 106.0423594021493,10.13801651934919,0 106.0446494496722,10.13617887832466,0 106.0465322350679,10.13466917721908,0 106.0479102918938,10.13356981931302,0 106.0492475630474,10.1325029267605,0 106.0501098186135,10.131803726091,0 106.0511138486984,10.13099331750587,0 106.05360108882,10.12902648222633,0 106.0553651522168,10.12762623558925,0 106.0576890399885,10.12579380039737,0 106.0627536511187,10.12176976660162,0 106.0641254238147,10.12063983950131,0 106.0652093229046,10.11974208625178,0 106.0663911120203,10.11864450566135,0 106.0668333806214,10.11822800757663,0 106.0675327888156,10.11744332161458,0 106.0685274023667,10.11608879819798,0 106.0695716694121,10.11471367328267,0 106.0709052702613,10.11299242232638,0 106.0724242123324,10.11096646918556,0 106.0736069284693,10.10999772969504,0 106.0736406697746,10.10956873831507,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>TTCM Long Hồ</name>
+				<description>Address: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+:</description>
+				<LookAt>
+					<longitude>106.007526</longitude>
+					<latitude>10.197137</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>1000</range>
+				</LookAt>
+				<styleUrl>#default1</styleUrl>
+				<Point>
+					<coordinates>106.007526,10.197137,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TTCM Trung Thành</name>
+				<description>Address: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+:</description>
+				<LookAt>
+					<longitude>106.19039</longitude>
+					<latitude>10.096158</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>1000</range>
+				</LookAt>
+				<styleUrl>#default1</styleUrl>
+				<Point>
+					<coordinates>106.19039,10.096158,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>TTCM Long Hồ - TTCM CAT Vĩnh Long</name>
+			<Placemark>
+				<name>TTCM Long Hồ</name>
+				<description>Address: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+:</description>
+				<LookAt>
+					<longitude>106.007526</longitude>
+					<latitude>10.197137</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>1000</range>
+				</LookAt>
+				<styleUrl>#default1</styleUrl>
+				<Point>
+					<coordinates>106.007526,10.197137,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TTCM CAT Vinh Long</name>
+				<description>Address: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+:</description>
+				<LookAt>
+					<longitude>105.9675651</longitude>
+					<latitude>10.2337458</latitude>
+					<altitude>0</altitude>
+					<heading>0</heading>
+					<tilt>0</tilt>
+					<range>1000</range>
+				</LookAt>
+				<styleUrl>#default1</styleUrl>
+				<Point>
+					<coordinates>105.9675651,10.2337458,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TTCM Long Hồ - TTCK CAT Vĩnh Long</name>
+				<styleUrl>#inline36</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						106.0075101420142,10.19715269669604,0 106.007733445571,10.19721151002642,0 106.0075644449628,10.19733903786473,0 106.0069959739217,10.19776372915499,0 106.0062964484625,10.19830407198497,0 106.0053493972144,10.19910518586683,0 106.0046899521386,10.19969395147206,0 106.0036704531902,10.20053845164145,0 106.0028194215576,10.20128426847024,0 106.0022016687385,10.20197133824952,0 106.0013083026474,10.20293434801674,0 105.9996336878391,10.2047735859409,0 105.9986087431468,10.20588042395106,0 105.9973069870748,10.20746681365224,0 105.9968806329819,10.20817867740425,0 105.9962844835267,10.20945737855481,0 105.9950170469852,10.21258132810946,0 105.9939902671892,10.21523587398348,0 105.9930526374809,10.21789562540079,0 105.9918692157172,10.22121586623071,0 105.9900319115202,10.22639897944237,0 105.9896094305449,10.22736147672869,0 105.988642192619,10.22925171768069,0 105.9875293800308,10.23113730384209,0 105.9871602428295,10.23149209804846,0 105.9867484883889,10.23163182198784,0 105.985860393777,10.23179770204285,0 105.9837848991051,10.23203573017454,0 105.9812775939242,10.23237118948813,0 105.9785558617842,10.2327424621523,0 105.976556134381,10.23304481019244,0 105.9745575416058,10.23333114302493,0 105.9724669895219,10.23363699525114,0 105.9703891233275,10.2339017898209,0 105.9682409476516,10.23416946009747,0 105.9676281910446,10.23424398011939,0 105.9675750257611,10.23378252306561,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Trụ EVN</name>
+			<Placemark>
+				<name>Điểm 1: 479PH/259</name>
+				<description>Vĩ độ: 10.197101, Kinh độ: 106.007892</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.007892,10.197101,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 2: 479PH/243</name>
+				<description>Vĩ độ: 10.191923, Kinh độ: 106.012574</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.012574,10.191923,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 3: 472VLi/303</name>
+				<description>Vĩ độ: 10.171437, Kinh độ: 106.019129</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.019129,10.171437,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 4: 472VLi/252</name>
+				<description>Vĩ độ: 10.15178, Kinh độ: 106.025299</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.025299,10.15178,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 5: 472VLi/244</name>
+				<description>Vĩ độ: 10.1486, Kinh độ: 106.0247</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.0247,10.1486,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 6: 472VLi/215</name>
+				<description>Vĩ độ: 10.144894, Kinh độ: 106.033132</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.033132,10.144894,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 7: 472VLi/216</name>
+				<description>Vĩ độ: 10.144645, Kinh độ: 106.033869</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.033869,10.144645,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 8: 472-474VLi/93</name>
+				<description>Vĩ độ: 10.115504, Kinh độ: 106.068887</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.068887,10.115504,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 9: 472-474VLi/76</name>
+				<description>Vĩ độ: 10.11, Kinh độ: 106.0736</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.0736,10.11,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 10: 472-474VLi/75</name>
+				<description>Vĩ độ: 10.109561, Kinh độ: 106.073635</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.073635,10.109561,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 11: Trụ Hạ Thế 1</name>
+				<description>Vĩ độ: 10.108813, Kinh độ: 106.074268</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.074268,10.108813,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 12: Trụ Hạ Thế 2</name>
+				<description>Vĩ độ: 10.109013, Kinh độ: 106.074531</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.074531,10.109013,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 13: Trụ Hạ Thế 14</name>
+				<description>Vĩ độ: 10.107196, Kinh độ: 106.076863</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.076863,10.107196,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 14: Trụ Hạ Thế 15</name>
+				<description>Vĩ độ: 10.107265, Kinh độ: 106.076934</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.076934,10.107265,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 15: Trụ Hạ Thế 20</name>
+				<description>Vĩ độ: 10.105989, Kinh độ: 106.078682</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.078682,10.105989,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 16: Trụ Hạ Thế 25</name>
+				<description>Vĩ độ: 10.10399, Kinh độ: 106.081115</description>
+				<styleUrl>#msn_ylw-pushpin2212</styleUrl>
+				<Point>
+					<coordinates>106.081115,10.10399,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 1: 479PH/259</name>
+				<description>Vĩ độ: 10.197101, Kinh độ: 106.007892</description>
+				<styleUrl>#msn_ylw-pushpin2811</styleUrl>
+				<Point>
+					<coordinates>106.007892,10.197101,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 2: 479PH/277</name>
+				<description>Vĩ độ: 10.202921, Kinh độ: 106.001312</description>
+				<styleUrl>#msn_ylw-pushpin2811</styleUrl>
+				<Point>
+					<coordinates>106.001312,10.202921,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 3: 479PH/8</name>
+				<description>Vĩ độ: 10.204168, Kinh độ: 106.005189</description>
+				<styleUrl>#msn_ylw-pushpin2811</styleUrl>
+				<Point>
+					<coordinates>106.005189,10.204168,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 4: TRỤ HẠ THẾ 1</name>
+				<description>Vĩ độ: 10.204322, Kinh độ: 106.005492</description>
+				<styleUrl>#msn_ylw-pushpin2811</styleUrl>
+				<Point>
+					<coordinates>106.005492,10.204322,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 5: TRỤ HẠ THẾ 6</name>
+				<description>Vĩ độ: 10.205232, Kinh độ: 106.007694</description>
+				<styleUrl>#msn_ylw-pushpin2811</styleUrl>
+				<Point>
+					<coordinates>106.007694,10.205232,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 6: V49/P127/7</name>
+				<description>Vĩ độ: 10.233843, Kinh độ: 105.99409</description>
+				<styleUrl>#msn_ylw-pushpin2811</styleUrl>
+				<Point>
+					<coordinates>105.9992852622597,10.22419825875169,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 1: 471VLi/118/P25/P7/3A</name>
+				<description>Vĩ độ: 10.0966, Kinh độ: 106.1897</description>
+				<styleUrl>#msn_ylw-pushpin1714</styleUrl>
+				<Point>
+					<coordinates>106.1897,10.0966,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 3: Trụ HT16</name>
+				<description>Vĩ độ: 10.0918, Kinh độ: 106.1875</description>
+				<styleUrl>#msn_ylw-pushpin1714</styleUrl>
+				<Point>
+					<coordinates>106.1875,10.0918,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 4: 473-471VLi/118</name>
+				<description>Vĩ độ: 10.0828, Kinh độ: 106.1902</description>
+				<styleUrl>#msn_ylw-pushpin1814</styleUrl>
+				<Point>
+					<coordinates>106.190193,10.083064,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 6: 471VLi/107</name>
+				<description>Vĩ độ: 10.07914, Kinh độ: 106.168061</description>
+				<styleUrl>#msn_ylw-pushpin1814</styleUrl>
+				<Point>
+					<coordinates>106.168042,10.079039,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 7: 472VLi/T30</name>
+				<description>Vĩ độ: 10.0938, Kinh độ: 106.0897</description>
+				<styleUrl>#msn_ylw-pushpin1714</styleUrl>
+				<Point>
+					<coordinates>106.0897,10.0938,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 8: 472VLi/T56</name>
+				<description>Vĩ độ: 10.0988, Kinh độ: 106.0775</description>
+				<styleUrl>#msn_ylw-pushpin1714</styleUrl>
+				<Point>
+					<coordinates>106.0775,10.0988,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 9: Ngã 4 Cầu mới</name>
+				<description>Vĩ độ: 10.103314, Kinh độ: 106.081774</description>
+				<styleUrl>#msn_ylw-pushpin1714</styleUrl>
+				<Point>
+					<coordinates>106.081774,10.103314,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 10: 472.../T10/1</name>
+				<description>Vĩ độ: 10.103704, Kinh độ: 106.081133</description>
+				<styleUrl>#msn_ylw-pushpin1714</styleUrl>
+				<Point>
+					<coordinates>106.081133,10.103704,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 11: Trụ Hạ Thế 25</name>
+				<description>Vĩ độ: 10.10399, Kinh độ: 106.081115</description>
+				<styleUrl>#msn_ylw-pushpin1714</styleUrl>
+				<Point>
+					<coordinates>106.081115,10.10399,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>471VLi/T118/47</name>
+				<open>1</open>
+				<LookAt>
+					<longitude>106.1771762482987</longitude>
+					<latitude>10.10852086685278</latitude>
+					<altitude>0</altitude>
+					<heading>0.036546615870274</heading>
+					<tilt>29.3717158170186</tilt>
+					<range>140.0913492674277</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.1773915987005,10.108657764342,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 1: Trụ TBA CAX</name>
+				<description>Vĩ độ: 10.0966, Kinh độ: 106.1898</description>
+				<styleUrl>#msn_ylw-pushpin1413</styleUrl>
+				<Point>
+					<coordinates>106.1898,10.0966,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 2: 471VLi/118/25</name>
+				<description>Vĩ độ: 10.0958, Kinh độ: 106.1853</description>
+				<styleUrl>#msn_ylw-pushpin1413</styleUrl>
+				<Point>
+					<coordinates>106.1853,10.0958,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 3: 471VLi/118/124</name>
+				<description>Vĩ độ: 10.1606, Kinh độ: 106.1646</description>
+				<styleUrl>#msn_ylw-pushpin1513</styleUrl>
+				<Point>
+					<coordinates>106.164596,10.160484,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 1: 471CC/P182/1</name>
+				<description>Vĩ độ: 10.175265, Kinh độ: 106.112004</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.112004,10.175265,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 2: 471CC/176</name>
+				<description>Vĩ độ: 10.178028, Kinh độ: 106.114252</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.114252,10.178028,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 3: 471CC/176B</name>
+				<description>Vĩ độ: 10.178335, Kinh độ: 106.11416</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.11416,10.178335,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 4: 471CC/175/1</name>
+				<description>Vĩ độ: 10.178628, Kinh độ: 106.114528</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.114528,10.178628,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 5: 471CC/173</name>
+				<description>Vĩ độ: 10.179261, Kinh độ: 106.11531</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.11531,10.179261,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 6: 471CC/173/1</name>
+				<description>Vĩ độ: 10.178963, Kinh độ: 106.115586</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.115586,10.178963,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 7: 471CC/173/12</name>
+				<description>Vĩ độ: 10.177935, Kinh độ: 106.12156</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.12156,10.177935,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 8: BTLT10.5GĐ 1</name>
+				<description>Vĩ độ: 10.17761, Kinh độ: 106.122099</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.122099,10.17761,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473CC/231/ 23</name>
+				<description>Vĩ độ: 10.17649, Kinh độ: 106.126917</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<coordinates>106.1269376552238,10.1765789029187,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473CC/231/ 22</name>
+				<open>1</open>
+				<description>Vĩ độ: 10.17649, Kinh độ: 106.126917</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<coordinates>106.1265640200149,10.17663209879617,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473CC/231/ 29</name>
+				<description>Vĩ độ: 10.175078, Kinh độ: 106.130285</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<coordinates>106.130285,10.175078,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473CC/231/ 30</name>
+				<description>Vĩ độ: 10.174967, Kinh độ: 106.130318</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<coordinates>106.1306485171392,10.17479671451262,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473CC/231/ 34</name>
+				<description>Vĩ độ: 10.174061, Kinh độ: 106.132021</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<coordinates>106.1323065728685,10.17399564901112,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473CC/231/ 35</name>
+				<description>Vĩ độ: 10.17407, Kinh độ: 106.132842</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<coordinates>106.132842,10.17407,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473CC/175/ 161</name>
+				<description>Vĩ độ: 10.16749, Kinh độ: 106.15472</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<coordinates>106.1546862261991,10.16748161534476,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 16: 471CC/117/94</name>
+				<description>Vĩ độ: 10.165582, Kinh độ: 106.154482</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.154482,10.165582,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 17: 471CC/117/95</name>
+				<description>Vĩ độ: 10.164992, Kinh độ: 106.154702</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.154702,10.164992,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 18: Trụ tháp vượt sông</name>
+				<description>Vĩ độ: 10.159503, Kinh độ: 106.15573</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.15573,10.159503,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 19: Trụ tháp vượt sông bờ Vũng Liêm</name>
+				<description>Vĩ độ: 10.157265, Kinh độ: 106.157053</description>
+				<styleUrl>#msn_ylw-pushpin1216</styleUrl>
+				<Point>
+					<coordinates>106.157053,10.157265,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 20: L44/T114/T124/T11A</name>
+				<description>Vĩ độ: 10.155994, Kinh độ: 106.158251</description>
+				<styleUrl>#msn_ylw-pushpin824</styleUrl>
+				<Point>
+					<coordinates>106.158251,10.155994,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V49/164</name>
+				<LookAt>
+					<longitude>105.9997068050495</longitude>
+					<latitude>10.25758834189633</latitude>
+					<altitude>0</altitude>
+					<heading>0.006991329460536925</heading>
+					<tilt>23.06104824612645</tilt>
+					<range>58.85377064227496</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin506</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.99976,10.257607,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V42/165/8</name>
+				<LookAt>
+					<longitude>105.9989818594703</longitude>
+					<latitude>10.25775834340867</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006328021875878047</heading>
+					<tilt>29.85732345571133</tilt>
+					<range>353.352614356173</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin914</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.999296,10.257823,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V48/165/1</name>
+				<LookAt>
+					<longitude>105.9978280586138</longitude>
+					<latitude>10.25785751808301</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006535867466021946</heading>
+					<tilt>29.82547980808836</tilt>
+					<range>433.2811074738555</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin528</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.996509,10.258361,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V48/165</name>
+				<LookAt>
+					<longitude>105.9957840182985</longitude>
+					<latitude>10.25835156707067</latitude>
+					<altitude>0</altitude>
+					<heading>-0.006900756026762451</heading>
+					<tilt>29.81456153022839</tilt>
+					<range>520.6844333336134</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1023</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.995889,10.258493,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V42/128</name>
+				<LookAt>
+					<longitude>105.9785633273176</longitude>
+					<latitude>10.25360962514779</latitude>
+					<altitude>0</altitude>
+					<heading>0.003210765444007487</heading>
+					<tilt>23.29878172256863</tilt>
+					<range>103.5882093610202</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1125</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.978502,10.253545,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V42/127</name>
+				<LookAt>
+					<longitude>105.9777743785088</longitude>
+					<latitude>10.25293540835253</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01924719397215084</heading>
+					<tilt>30.00035176944164</tilt>
+					<range>78.08675493511285</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin327</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.977615,10.252888,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V42/119</name>
+				<LookAt>
+					<longitude>105.9741791981323</longitude>
+					<latitude>10.25024230180354</latitude>
+					<altitude>0</altitude>
+					<heading>0.008654879145864462</heading>
+					<tilt>30.00034711822283</tilt>
+					<range>76.14216972305852</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin618</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.97409,10.250186,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V42/115</name>
+				<LookAt>
+					<longitude>105.9735031828678</longitude>
+					<latitude>10.2496611029331</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01139207664055685</heading>
+					<tilt>24.77554212257411</tilt>
+					<range>207.617001096846</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin421</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.9729246800863,10.24944768055661,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V42/113</name>
+				<LookAt>
+					<longitude>105.9720399709164</longitude>
+					<latitude>10.24857914770366</latitude>
+					<altitude>0</altitude>
+					<heading>0.007394217676180191</heading>
+					<tilt>28.76644704678019</tilt>
+					<range>78.03091139361156</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1023</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.971853,10.248535,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>HT đường Mậu Thân</name>
+				<LookAt>
+					<longitude>105.9719989935942</longitude>
+					<latitude>10.24809759897887</latitude>
+					<altitude>0</altitude>
+					<heading>-0.03020325622578387</heading>
+					<tilt>25.97368858303204</tilt>
+					<range>244.3018294065751</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1023</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.971511,10.248361,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>điểm ngoi cáp</name>
+				<LookAt>
+					<longitude>105.9694379618956</longitude>
+					<latitude>10.24006857812458</latitude>
+					<altitude>0</altitude>
+					<heading>0.001663857373378754</heading>
+					<tilt>21.01081743308318</tilt>
+					<range>296.495208801724</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin914</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.9702099378094,10.24037277322279,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ngoi cap VNPT</name>
+				<LookAt>
+					<longitude>105.965133740589</longitude>
+					<latitude>10.23516100111438</latitude>
+					<altitude>0</altitude>
+					<heading>-0.009979544122958615</heading>
+					<tilt>24.61651903519224</tilt>
+					<range>182.8367516687181</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2012</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.9653019856346,10.2351299502676,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>HT</name>
+				<LookAt>
+					<longitude>105.9649907715008</longitude>
+					<latitude>10.23536110651694</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01000494889361084</heading>
+					<tilt>24.61651903519226</tilt>
+					<range>182.8367516696502</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2012</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.9646456666306,10.23547780837701,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>V49/68</name>
+				<LookAt>
+					<longitude>105.9656618400222</longitude>
+					<latitude>10.2347667467</latitude>
+					<altitude>0</altitude>
+					<heading>-0.01226665451974345</heading>
+					<tilt>29.74558029048953</tilt>
+					<range>236.0818307852732</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2012</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.964547,10.235294,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 1: 474-472CC/197</name>
+				<description>Vĩ độ: 10.252302, Kinh độ: 106.015664</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.015664,10.252302,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 2: Thanh Đức 2</name>
+				<description>Vĩ độ: 10.251977, Kinh độ: 106.016624</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.016624,10.251977,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 3: 474-472CC/94</name>
+				<description>Vĩ độ: 10.241329, Kinh độ: 106.047862</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.047862,10.241329,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BTLT 14 - 478-476CC/1</name>
+				<description>Vĩ độ: 10.236087, Kinh độ: 106.086174</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<coordinates>106.086174,10.236087,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 7: 473-471CC/33</name>
+				<description>Vĩ độ: 10.232225, Kinh độ: 106.098989</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.098989,10.232225,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 8: 473CC/99</name>
+				<description>Vĩ độ: 10.208561, Kinh độ: 106.087036</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.087036,10.208561,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473CC/ 100</name>
+				<description>Vĩ độ: 10.208347, Kinh độ: 106.08681</description>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<coordinates>106.08681,10.208347,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 10: 471CC/261/100</name>
+				<description>Vĩ độ: 10.208205, Kinh độ: 106.086926</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.086926,10.208205,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 11: 471CC/261/1</name>
+				<description>Vĩ độ: 10.174254, Kinh độ: 106.106332</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.106332,10.174254,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 12: 471CC/193</name>
+				<description>Vĩ độ: 10.174716, Kinh độ: 106.109411</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.109411,10.174716,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 13: 471CC/192</name>
+				<description>Vĩ độ: 10.174395, Kinh độ: 106.109341</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.109341,10.174395,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 14: 471CC/188</name>
+				<description>Vĩ độ: 10.173088, Kinh độ: 106.110078</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.110078,10.173088,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 15: 471CC/182</name>
+				<description>Vĩ độ: 10.1752, Kinh độ: 106.112179</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.112179,10.1752,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Điểm 16: 471CC/P182/1</name>
+				<description>Vĩ độ: 10.175265, Kinh độ: 106.112004</description>
+				<styleUrl>#msn_ylw-pushpin1119</styleUrl>
+				<Point>
+					<coordinates>106.112004,10.175265,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trụ TT 73A</name>
+				<LookAt>
+					<longitude>105.9670699557297</longitude>
+					<latitude>10.23420656367785</latitude>
+					<altitude>0</altitude>
+					<heading>-0.005439185056211744</heading>
+					<tilt>24.4481295770151</tilt>
+					<range>129.5036427548769</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>105.9673380849932,10.23430855819651,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BTLT 14 - 474-472CC/26</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_New_Text_Document_SDD">
+						<SimpleData name="Tên_trụ">BTLT 14 - 474-472CC/26 TPCOM</SimpleData>
+						<SimpleData name="Long">106.078</SimpleData>
+						<SimpleData name="Lat">10.2372</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>106.07831452,10.23722430999997,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BTLT 14 - 474-472CC/25</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_New_Text_Document_SDD">
+						<SimpleData name="Tên_trụ">BTLT 14 - 474-472CC/25 TPCOM</SimpleData>
+						<SimpleData name="Long">106.079</SimpleData>
+						<SimpleData name="Lat">10.237</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>106.07916377,10.23699203999998,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BTLT 14 - 474-472CC/24</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_New_Text_Document_SDD">
+						<SimpleData name="Tên_trụ">BTLT 14 - 474-472CC/24 TPCOM</SimpleData>
+						<SimpleData name="Long">106.079</SimpleData>
+						<SimpleData name="Lat">10.2369</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>106.07946418,10.23688943,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BTLT 14 - 474-472CC/23</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin6</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_New_Text_Document_SDD">
+						<SimpleData name="Tên_trụ">BTLT 14 - 474-472CC/23 TPCOM</SimpleData>
+						<SimpleData name="Long">106.08</SimpleData>
+						<SimpleData name="Lat">10.2371</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>106.07974514,10.23707418999998,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BTLT 14 - 478-476CC/14</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_New_Text_Document_SDD">
+						<SimpleData name="Tên_trụ">BTLT 14 - 478-476CC/14 TPCOM</SimpleData>
+						<SimpleData name="Long">106.08</SimpleData>
+						<SimpleData name="Lat">10.2372</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>106.08001906,10.23717878,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>BTLT 14 - 478-476CC/13</name>
+				<open>1</open>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_New_Text_Document_SDD">
+						<SimpleData name="Tên_trụ">BTLT 14 - 478-476CC/13 TPCOM</SimpleData>
+						<SimpleData name="Long">106.081</SimpleData>
+						<SimpleData name="Lat">10.237</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>106.08070906,10.23703295000001,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473CC/ 88 TPCOM</name>
+				<open>1</open>
+				<styleUrl>#pointStyleMap</styleUrl>
+				<Style id="inline">
+					<IconStyle>
+						<color>ffffffff</color>
+						<colorMode>normal</colorMode>
+						<Icon>
+							<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+						</Icon>
+					</IconStyle>
+					<LineStyle>
+						<color>ffffffff</color>
+						<colorMode>normal</colorMode>
+					</LineStyle>
+					<PolyStyle>
+						<color>ffffffff</color>
+						<colorMode>normal</colorMode>
+					</PolyStyle>
+				</Style>
+				<ExtendedData>
+					<SchemaData schemaUrl="#S_New_Text_Document_SDD">
+						<SimpleData name="Tên_trụ">473CC/ 88 TPCOM</SimpleData>
+						<SimpleData name="Long">106.09</SimpleData>
+						<SimpleData name="Lat">10.2119</SimpleData>
+					</SchemaData>
+				</ExtendedData>
+				<Point>
+					<coordinates>106.0899543,10.21193647999997,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>473VLi/85</name>
+				<LookAt>
+					<longitude>106.1699095730179</longitude>
+					<latitude>10.07641818060152</latitude>
+					<altitude>0</altitude>
+					<heading>0.02201629352585799</heading>
+					<tilt>25.58723052201798</tilt>
+					<range>1281.941390449451</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_ylw-pushpin1</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>106.1538,10.0764,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	</Folder>
+</Document>
+</kml>

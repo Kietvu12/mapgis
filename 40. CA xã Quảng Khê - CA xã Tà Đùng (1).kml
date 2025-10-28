@@ -1,0 +1,4436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>40. CA xã Quảng Khê - CA xã Tà Đùng.kml</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="blueMarker603">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker605">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker609">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker667">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker668">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker609</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker667</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker669">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker672">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker673">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker674">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker675">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker676">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker677">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker678">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker679">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker682">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker683">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker801</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker805</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker684">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker685">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker686">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker687">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker688">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker689">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker692">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker773</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker747</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker693">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker694">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker695">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker912</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker749</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker696">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker697">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker698">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker905</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker775</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker699">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker702">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker703">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker704">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker705">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker706">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker707">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker708">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker709">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker855</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker781</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker712">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker713">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker714">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker715">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker716">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker717">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker718">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker719">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker721">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker718</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker889</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker722">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker723">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker714</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker733</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker724">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker841</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker839</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker725">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker726">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker727">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker728">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker917</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker753</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker729">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker731">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker732">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker733">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker734">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker735">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7350">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7351">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73510">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73511">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73512">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73513">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73514">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73515">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73516">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73517">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73518">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73519">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7352">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73520">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73521">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73522">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73523">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73524">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73525">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73526">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73527">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73528">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73529">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7353">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73530">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73531">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73532">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73533">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73534">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73535">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73536">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73537">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73538">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73539">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7354">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73540">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73541">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73542">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73543">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73544">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73545">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73546">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73547">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73548">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73549">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7355">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73550">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73551">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73552">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73553">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73554">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73555">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73556">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73557">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73558">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73559">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7356">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73560">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73561">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73562">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73563">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73564">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73565">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73566">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73567">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73568">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73569">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7357">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73570">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73571">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73572">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73573">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73574">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73575">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73576">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73577">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73578">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73579">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7358">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73580">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73581">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73582">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73583">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker73584">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7359">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker736">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker682</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker807</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker737">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker738">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker739">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker741">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker742">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker694</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker686</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker743">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker731</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker725</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker744">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker745">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker762</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker706</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker746">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker747">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker748">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker749">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker751">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker702</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker755</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker752">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker753">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker754">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker755">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker756">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker757">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker758">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker759">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker744</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker918</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker761">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78370</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73574</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7610">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78330</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73517</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7611">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78372</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73526</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78333</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73522</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78380</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7357</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76112">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78354</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73569</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76113">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker783</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73582</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76114">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7836</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73530</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76115">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78349</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7358</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76116">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78348</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7353</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76117">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7833</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73571</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76118">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78369</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7354</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76119">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7832</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73547</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7612">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78328</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73537</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76120">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78318</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73575</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76121">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78361</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73525</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76122">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7837</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73556</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76123">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78311</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73583</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76124">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78379</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73550</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76125">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78366</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73542</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76126">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78384</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73572</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76127">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78321</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7359</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76128">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78332</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73540</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76129">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78363</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73516</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7613">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78335</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73558</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76130">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78338</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73544</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76131">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78353</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73511</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76132">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78359</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73565</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76133">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78340</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7352</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76134">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78378</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73539</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76135">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7838</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73513</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76136">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7839</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73518</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76137">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78362</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73566</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76138">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78342</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73512</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76139">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78319</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73551</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7614">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78364</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73531</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76140">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7834</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73552</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76141">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78345</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73576</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76142">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78347</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73541</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76143">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78317</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73581</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76144">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78381</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73532</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76145">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78383</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73533</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76146">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78314</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73523</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76147">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78382</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73528</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76148">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78375</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73560</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76149">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78336</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73527</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7615">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78355</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73561</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76150">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78320</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73546</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76151">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78352</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73567</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76152">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78356</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73555</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76153">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78339</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73529</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76154">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78351</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73519</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76155">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78325</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73535</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76156">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78337</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73584</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76157">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78312</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73559</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76158">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78326</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73579</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76159">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7835</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73515</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7616">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78374</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73580</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76160">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78316</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73536</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76161">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78368</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73562</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76162">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78367</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73554</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76163">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78331</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73549</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76164">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78324</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73548</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76165">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78357</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7351</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76166">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78365</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73538</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76167">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78343</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker735</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76168">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78376</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73570</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76169">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78323</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73577</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7617">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78346</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73557</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76170">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7831</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73545</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76171">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78327</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73520</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76172">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78350</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73568</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76173">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78371</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73534</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76174">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78358</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7355</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76175">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78313</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73524</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76176">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78341</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73521</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76177">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78373</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7350</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76178">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78334</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73563</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76179">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78329</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73564</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7618">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78377</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73578</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76180">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78315</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73543</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76181">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78360</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73573</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76182">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78310</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73510</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76183">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78344</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73553</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker76184">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker7830</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker7356</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker7619">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker78322</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker73514</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker762">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker763">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker764">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker765">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker766">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker767">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker768">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker769">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker838</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker903</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker771">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker817</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker827</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker772">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker734</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker813</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker773">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker774">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker775">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker776">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker833</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker825</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker777">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker919</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker729</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker778">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker779">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker696</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker708</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker781">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker782">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker783">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7830">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7831">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78310">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78311">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78312">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78313">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78314">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78315">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78316">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78317">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78318">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78319">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7832">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78320">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78321">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78322">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78323">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78324">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78325">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78326">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78327">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78328">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78329">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7833">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78330">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78331">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78332">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78333">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78334">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78335">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78336">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78337">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78338">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78339">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7834">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78340">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78341">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78342">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78343">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78344">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78345">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78346">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78347">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78348">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78349">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7835">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78350">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78351">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78352">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78353">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78354">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78355">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78356">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78357">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78358">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78359">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7836">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78360">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78361">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78362">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78363">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78364">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78365">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78366">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78367">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78368">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78369">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7837">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78370">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78371">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78372">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78373">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78374">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78375">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78376">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78377">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78378">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78379">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7838">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78380">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78381">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78382">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78383">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker78384">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker7839">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker784">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker861</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker828</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker785">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker786">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker787">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker788">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker789">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker908</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker727</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker791">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker792">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker793">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker794">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker793</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker879</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker795">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker672</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker788</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker796">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker887</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker856</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker797">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker829</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker815</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker798">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker896</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker888</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker799">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker801">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker802">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker676</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker834</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker803">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker804">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker805">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker806">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker807">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker808">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker699</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker688</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker809">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker726</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker922</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker812">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker803</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker806</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker813">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker814">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker906</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker748</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker815">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker816">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker817">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker818">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker819">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker679</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker697</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker821">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker763</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker675</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker822">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker823">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker732</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker835</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker824">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker868</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker849</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker825">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker826">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker756</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker765</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker827">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker828">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker829">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker831">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker923</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker916</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker832">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker876</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker877</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker833">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker834">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker835">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker836">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker837</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker704</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker837">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker838">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker839">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker841">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker842">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker774</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker786</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker843">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker741</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker677</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker844">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker754</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker757</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker845">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker673</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker778</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker846">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker758</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker768</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker847">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker605</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker684</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker848">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker703</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker669</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker849">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker851">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker852">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker737</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker707</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker853">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker717</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker719</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker854">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker855">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker856">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker857">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker785</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker926</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker858">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker907</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker693</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker859">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker678</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker739</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker861">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker862">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker738</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker822</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker863">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker764</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker766</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker864">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker865">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker866">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker915</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker925</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker867">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker674</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker689</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker868">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker869">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker705</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker716</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker871">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker851</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker687</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker872">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker854</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker864</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker873">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker865</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker791</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker874">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker875">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker603</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker885</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker876">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker877">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker878">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker792</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker767</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker879">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker881">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker882</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker787</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker882">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker883">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker746</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker782</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker884">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker818</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker816</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker885">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker886">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker887">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker888">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker889">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker891">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker722</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker874</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="blueMarker892">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker804</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker799</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker893">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker894">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker685</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker897</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker895">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker896">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker897">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker898">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker886</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker893</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker899">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker902">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker715</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker713</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker903">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker904">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker905">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker906">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker907">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker908">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker909">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker895</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker899</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker912">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker913">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker904</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker914</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker914">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker915">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker916">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker917">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker918">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker919">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker922">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker923">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="blueMarker924">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#blueMarker712</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#blueMarker752</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="blueMarker925">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="blueMarker926">
+		<LabelStyle>
+			<color>ffff0000</color>
+		</LabelStyle>
+	</Style>
+	<Style id="style2">
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>5</width>
+		</LineStyle>
+		<LineString>
+<color>#fffff600</color>
+</LineString>
+	</Style>
+	<Style id="style3">
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>5</width>
+		</LineStyle>
+		<LineString>
+<color>#fffff600</color>
+</LineString>
+	</Style>
+	<StyleMap id="stylemap_id01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#style3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#style2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>470 ĐNO/189/4/3</name>
+		<styleUrl>#blueMarker776</styleUrl>
+		<Point>
+			<coordinates>107.792124,11.9120184,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/4/1</name>
+		<styleUrl>#blueMarker853</styleUrl>
+		<Point>
+			<coordinates>107.7924912208152,11.91080679124508,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/183</name>
+		<styleUrl>#blueMarker878</styleUrl>
+		<Point>
+			<coordinates>107.7928694,11.9106153,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>HT 01</name>
+		<styleUrl>#blueMarker819</styleUrl>
+		<Point>
+			<coordinates>107.7911721995423,11.91157338530672,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Công an xã Quảng Khê</name>
+		<open>1</open>
+		<styleUrl>#blueMarker777</styleUrl>
+		<Point>
+			<coordinates>107.7911537330928,11.91178213962343,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>HT 02</name>
+		<open>1</open>
+		<styleUrl>#blueMarker692</styleUrl>
+		<Point>
+			<coordinates>107.7918490275856,11.91176043797091,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>T382/A-10</name>
+		<styleUrl>#blueMarker698</styleUrl>
+		<Point>
+			<coordinates>107.7933434,11.9104008,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TBA</name>
+		<styleUrl>#blueMarker668</styleUrl>
+		<Point>
+			<coordinates>107.7945799,11.9095829,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT</name>
+		<styleUrl>#blueMarker842</styleUrl>
+		<Point>
+			<coordinates>107.7956670329169,11.90941360913298,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/10</name>
+		<styleUrl>#blueMarker751</styleUrl>
+		<Point>
+			<coordinates>107.7960375976521,11.90949475049881,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/16</name>
+		<styleUrl>#blueMarker831</styleUrl>
+		<Point>
+			<coordinates>107.7981694,11.908084,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/30</name>
+		<styleUrl>#blueMarker924</styleUrl>
+		<Point>
+			<coordinates>107.8037817232959,11.90627919608175,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/40</name>
+		<styleUrl>#blueMarker769</styleUrl>
+		<Point>
+			<coordinates>107.8058597696032,11.90278828883503,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/43</name>
+		<styleUrl>#blueMarker909</styleUrl>
+		<Point>
+			<coordinates>107.8064072251123,11.90165475777856,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/49</name>
+		<styleUrl>#blueMarker826</styleUrl>
+		<Point>
+			<coordinates>107.8089261957205,11.90021255116972,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/55</name>
+		<styleUrl>#blueMarker795</styleUrl>
+		<Point>
+			<coordinates>107.8107838,11.8982496,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/67</name>
+		<styleUrl>#blueMarker784</styleUrl>
+		<Point>
+			<coordinates>107.8148852237091,11.89683318864649,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>B-RT-11</name>
+		<styleUrl>#blueMarker745</styleUrl>
+		<Point>
+			<coordinates>107.8148620503294,11.89718201039793,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>T621/B-/1</name>
+		<styleUrl>#blueMarker808</styleUrl>
+		<Point>
+			<coordinates>107.815303692986,11.89703366224871,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>T621/B-6</name>
+		<styleUrl>#blueMarker894</styleUrl>
+		<Point>
+			<coordinates>107.8175269840851,11.89702367860682,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Không số</name>
+		<styleUrl>#blueMarker683</styleUrl>
+		<Point>
+			<coordinates>107.8198289757881,11.8970569089449,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Viettel 1</name>
+		<styleUrl>#blueMarker902</styleUrl>
+		<Point>
+			<coordinates>107.8203002441583,11.89665071869036,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/70</name>
+		<styleUrl>#blueMarker814</styleUrl>
+		<Point>
+			<coordinates>107.8210443141128,11.8953915772618,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/71B</name>
+		<styleUrl>#blueMarker832</styleUrl>
+		<Point>
+			<coordinates>107.8225581100682,11.8952477698376,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/72</name>
+		<styleUrl>#blueMarker798</styleUrl>
+		<Point>
+			<coordinates>107.823043372452,11.89473701711752,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/85</name>
+		<styleUrl>#blueMarker695</styleUrl>
+		<Point>
+			<coordinates>107.8243899639075,11.89845662860939,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/86</name>
+		<styleUrl>#blueMarker802</styleUrl>
+		<Point>
+			<coordinates>107.824696814493,11.89892738911258,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/92</name>
+		<styleUrl>#blueMarker836</styleUrl>
+		<Point>
+			<coordinates>107.8253697,11.9014279,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/97</name>
+		<styleUrl>#blueMarker862</styleUrl>
+		<Point>
+			<coordinates>107.8274428055091,11.90288717093585,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/105</name>
+		<styleUrl>#blueMarker728</styleUrl>
+		<Point>
+			<coordinates>107.8288802927183,11.90682617441842,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/113</name>
+		<styleUrl>#blueMarker771</styleUrl>
+		<Point>
+			<coordinates>107.8303762794556,11.91068321984566,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/116</name>
+		<styleUrl>#blueMarker772</styleUrl>
+		<Point>
+			<coordinates>107.8312351755996,11.91188576206673,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/120</name>
+		<styleUrl>#blueMarker869</styleUrl>
+		<Point>
+			<coordinates>107.8333776613141,11.91244776503438,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/125</name>
+		<styleUrl>#blueMarker881</styleUrl>
+		<Point>
+			<coordinates>107.8344154962092,11.91415364510474,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/128</name>
+		<styleUrl>#blueMarker891</styleUrl>
+		<Point>
+			<coordinates>107.8347895686118,11.91604352594577,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/133</name>
+		<styleUrl>#blueMarker759</styleUrl>
+		<Point>
+			<coordinates>107.8334615971003,11.91800705804539,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/137</name>
+		<styleUrl>#blueMarker794</styleUrl>
+		<Point>
+			<coordinates>107.8328639036987,11.91976024105752,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/143</name>
+		<styleUrl>#blueMarker843</styleUrl>
+		<Point>
+			<coordinates>107.8306844523788,11.92139513853386,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/146</name>
+		<styleUrl>#blueMarker736</styleUrl>
+		<Point>
+			<coordinates>107.8299127,11.9226361,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/156</name>
+		<styleUrl>#blueMarker724</styleUrl>
+		<Point>
+			<coordinates>107.825937,11.9250187,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/162</name>
+		<styleUrl>#blueMarker871</styleUrl>
+		<Point>
+			<coordinates>107.8247635,11.9275629,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/170</name>
+		<styleUrl>#blueMarker742</styleUrl>
+		<Point>
+			<coordinates>107.8276027110627,11.92859720716341,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/178</name>
+		<styleUrl>#blueMarker812</styleUrl>
+		<Point>
+			<coordinates>107.8307342904725,11.93194225533929,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/190</name>
+		<styleUrl>#blueMarker721</styleUrl>
+		<Point>
+			<coordinates>107.8334116995196,11.93571280110744,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/197</name>
+		<styleUrl>#blueMarker845</styleUrl>
+		<Point>
+			<coordinates>107.8359535082984,11.93820033842514,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/202</name>
+		<styleUrl>#blueMarker884</styleUrl>
+		<Point>
+			<coordinates>107.8376401,11.9392812,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/208</name>
+		<styleUrl>#blueMarker858</styleUrl>
+		<Point>
+			<coordinates>107.8385825213305,11.94214214259903,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/214</name>
+		<styleUrl>#blueMarker823</styleUrl>
+		<Point>
+			<coordinates>107.8402918980494,11.9445129017319,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/215</name>
+		<styleUrl>#blueMarker847</styleUrl>
+		<Point>
+			<coordinates>107.8407286976444,11.94481904872645,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/223</name>
+		<styleUrl>#blueMarker848</styleUrl>
+		<Point>
+			<coordinates>107.8447007760287,11.94745986311896,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/233</name>
+		<styleUrl>#blueMarker875</styleUrl>
+		<Point>
+			<coordinates>107.8475821,11.9517254,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/241</name>
+		<styleUrl>#blueMarker913</styleUrl>
+		<Point>
+			<coordinates>107.8522494,11.9545378,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/248</name>
+		<styleUrl>#blueMarker863</styleUrl>
+		<Point>
+			<coordinates>107.8548517048779,11.9572379147819,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/249</name>
+		<styleUrl>#blueMarker859</styleUrl>
+		<Point>
+			<coordinates>107.856369,11.9583245,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/250</name>
+		<styleUrl>#blueMarker873</styleUrl>
+		<Point>
+			<coordinates>107.8566081983968,11.96039013150718,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/251</name>
+		<styleUrl>#blueMarker898</styleUrl>
+		<Point>
+			<coordinates>107.8563067989216,11.96148382843626,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/252</name>
+		<styleUrl>#blueMarker821</styleUrl>
+		<Point>
+			<coordinates>107.8559701378442,11.96262651858613,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/253</name>
+		<styleUrl>#blueMarker779</styleUrl>
+		<Point>
+			<coordinates>107.8549458602508,11.96359608440495,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/254</name>
+		<styleUrl>#blueMarker743</styleUrl>
+		<Point>
+			<coordinates>107.8548250903166,11.96457565516489,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/256</name>
+		<styleUrl>#blueMarker709</styleUrl>
+		<Point>
+			<coordinates>107.8536229831411,11.96582994733497,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/257</name>
+		<styleUrl>#blueMarker844</styleUrl>
+		<Point>
+			<coordinates>107.8528848,11.9663309,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/258</name>
+		<styleUrl>#blueMarker797</styleUrl>
+		<Point>
+			<coordinates>107.8520989,11.9670656,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/260</name>
+		<styleUrl>#blueMarker883</styleUrl>
+		<Point>
+			<coordinates>107.8512916,11.9688791,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/262</name>
+		<styleUrl>#blueMarker723</styleUrl>
+		<Point>
+			<coordinates>107.8501211,11.9699873,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/263</name>
+		<styleUrl>#blueMarker866</styleUrl>
+		<Point>
+			<coordinates>107.8493674,11.971091,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/264</name>
+		<styleUrl>#blueMarker796</styleUrl>
+		<Point>
+			<coordinates>107.8490095957812,11.97234138949232,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/265</name>
+		<styleUrl>#blueMarker852</styleUrl>
+		<Point>
+			<coordinates>107.8488859716294,11.97290262189534,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/270</name>
+		<styleUrl>#blueMarker846</styleUrl>
+		<Point>
+			<coordinates>107.846911515937,11.97557849907299,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/274</name>
+		<styleUrl>#blueMarker892</styleUrl>
+		<Point>
+			<coordinates>107.8469304036374,11.97770438099377,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/275</name>
+		<styleUrl>#blueMarker872</styleUrl>
+		<Point>
+			<coordinates>107.8471966391147,11.97794279021081,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/276</name>
+		<styleUrl>#blueMarker809</styleUrl>
+		<Point>
+			<coordinates>107.8479886040181,11.97790846335843,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/277</name>
+		<styleUrl>#blueMarker857</styleUrl>
+		<Point>
+			<coordinates>107.848384,11.9786713,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/278</name>
+		<styleUrl>#blueMarker789</styleUrl>
+		<Point>
+			<coordinates>107.8481822,11.9793479,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/280</name>
+		<styleUrl>#blueMarker824</styleUrl>
+		<Point>
+			<coordinates>107.8496586136925,11.97992933871337,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/282</name>
+		<styleUrl>#blueMarker76146</styleUrl>
+		<Point>
+			<coordinates>107.8503639413382,11.98051231207201,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/283</name>
+		<styleUrl>#blueMarker76135</styleUrl>
+		<Point>
+			<coordinates>107.8500826131728,11.98185940515926,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/284</name>
+		<styleUrl>#blueMarker76169</styleUrl>
+		<Point>
+			<coordinates>107.8500701,11.9832288,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/286</name>
+		<styleUrl>#blueMarker76172</styleUrl>
+		<Point>
+			<coordinates>107.850829270949,11.9841695440504,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/287</name>
+		<styleUrl>#blueMarker76116</styleUrl>
+		<Point>
+			<coordinates>107.8517543799762,11.98462588674647,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/289</name>
+		<styleUrl>#blueMarker76181</styleUrl>
+		<Point>
+			<coordinates>107.8529679178819,11.98513608714954,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/291</name>
+		<styleUrl>#blueMarker76122</styleUrl>
+		<Point>
+			<coordinates>107.8536985,11.9863035,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/294</name>
+		<styleUrl>#blueMarker76115</styleUrl>
+		<Point>
+			<coordinates>107.8551224120258,11.98745883641678,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/297</name>
+		<styleUrl>#blueMarker76138</styleUrl>
+		<Point>
+			<coordinates>107.856243988196,11.98900456916728,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/298</name>
+		<styleUrl>#blueMarker76173</styleUrl>
+		<Point>
+			<coordinates>107.8566569184553,11.98958783878959,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/301</name>
+		<styleUrl>#blueMarker76163</styleUrl>
+		<Point>
+			<coordinates>107.8576549440659,11.99041212971411,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/302</name>
+		<open>1</open>
+		<styleUrl>#blueMarker76137</styleUrl>
+		<Point>
+			<coordinates>107.857879559981,11.99084382447843,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/308</name>
+		<styleUrl>#blueMarker76168</styleUrl>
+		<Point>
+			<coordinates>107.8603269444434,11.9919345794363,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/312</name>
+		<styleUrl>#blueMarker76136</styleUrl>
+		<Point>
+			<coordinates>107.8614183865607,11.99091025571776,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/319</name>
+		<styleUrl>#blueMarker76154</styleUrl>
+		<Point>
+			<coordinates>107.8639170516365,11.99189316289815,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/322</name>
+		<styleUrl>#blueMarker76139</styleUrl>
+		<Point>
+			<coordinates>107.8647971253907,11.99286905525595,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/329</name>
+		<styleUrl>#blueMarker76149</styleUrl>
+		<Point>
+			<coordinates>107.8635452,11.9953339,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/333</name>
+		<styleUrl>#blueMarker76131</styleUrl>
+		<Point>
+			<coordinates>107.8632136,11.9968644,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/338</name>
+		<styleUrl>#blueMarker76159</styleUrl>
+		<Point>
+			<coordinates>107.8638202558672,11.99887100866008,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/342</name>
+		<styleUrl>#blueMarker76114</styleUrl>
+		<Point>
+			<coordinates>107.8630577238132,12.00055939586567,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/346</name>
+		<styleUrl>#blueMarker7617</styleUrl>
+		<Point>
+			<coordinates>107.8618101070741,12.00266363614834,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/347</name>
+		<styleUrl>#blueMarker76152</styleUrl>
+		<Point>
+			<coordinates>107.8615241440593,12.00395676184588,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/349</name>
+		<open>1</open>
+		<styleUrl>#blueMarker76140</styleUrl>
+		<Point>
+			<coordinates>107.8619937372994,12.00438358608718,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/353</name>
+		<styleUrl>#blueMarker76147</styleUrl>
+		<Point>
+			<coordinates>107.8633052287898,12.00520251148379,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Viettel 4 (470 ĐNO/189/363)</name>
+		<styleUrl>#blueMarker76142</styleUrl>
+		<Point>
+			<coordinates>107.8642118027633,12.00903409412473,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/378</name>
+		<styleUrl>#blueMarker76132</styleUrl>
+		<Point>
+			<coordinates>107.8688422350022,12.01315099504382,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/382</name>
+		<styleUrl>#blueMarker76111</styleUrl>
+		<Point>
+			<coordinates>107.8708525668601,12.0136415902996,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/384</name>
+		<styleUrl>#blueMarker76164</styleUrl>
+		<Point>
+			<coordinates>107.8718839,12.013503,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/390</name>
+		<styleUrl>#blueMarker76175</styleUrl>
+		<Point>
+			<coordinates>107.8740391649662,12.01519179568652,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/400</name>
+		<styleUrl>#blueMarker76125</styleUrl>
+		<Point>
+			<coordinates>107.8766222192561,12.01848576565562,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/406</name>
+		<styleUrl>#blueMarker76182</styleUrl>
+		<Point>
+			<coordinates>107.8789492533469,12.01959519525717,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/408</name>
+		<styleUrl>#blueMarker76112</styleUrl>
+		<Point>
+			<coordinates>107.8797847,12.0195831,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/410</name>
+		<styleUrl>#blueMarker7618</styleUrl>
+		<Point>
+			<coordinates>107.8805441,12.0191693,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/414</name>
+		<styleUrl>#blueMarker76134</styleUrl>
+		<Point>
+			<coordinates>107.8820624834054,12.01990904292323,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/421</name>
+		<styleUrl>#blueMarker76160</styleUrl>
+		<Point>
+			<coordinates>107.8841706505501,12.02190971700519,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Viettel 6 (470 ĐNO/189/435)</name>
+		<styleUrl>#blueMarker76118</styleUrl>
+		<Point>
+			<coordinates>107.8898925583031,12.02534976527169,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/442</name>
+		<styleUrl>#blueMarker76143</styleUrl>
+		<Point>
+			<coordinates>107.8926382857785,12.02612545346725,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/448</name>
+		<styleUrl>#blueMarker76126</styleUrl>
+		<Point>
+			<coordinates>107.8947453112018,12.02723289769056,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/453</name>
+		<styleUrl>#blueMarker76167</styleUrl>
+		<Point>
+			<coordinates>107.8949967901967,12.02908174075561,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/457</name>
+		<styleUrl>#blueMarker76161</styleUrl>
+		<Point>
+			<coordinates>107.8963069955503,12.03033347193093,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Viettel 7 (470 ĐNO/189/463)</name>
+		<styleUrl>#blueMarker76151</styleUrl>
+		<Point>
+			<coordinates>107.8987169748729,12.03176007908892,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/469</name>
+		<styleUrl>#blueMarker76177</styleUrl>
+		<Point>
+			<coordinates>107.8997332511182,12.03420609201212,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/475</name>
+		<styleUrl>#blueMarker76123</styleUrl>
+		<Point>
+			<coordinates>107.901814378658,12.03606622302136,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476</name>
+		<styleUrl>#blueMarker76174</styleUrl>
+		<Point>
+			<coordinates>107.9021174,12.0363507,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/1</name>
+		<styleUrl>#blueMarker7611</styleUrl>
+		<Point>
+			<coordinates>107.9017563,12.0365157,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/6</name>
+		<styleUrl>#blueMarker7615</styleUrl>
+		<Point>
+			<coordinates>107.9000091400647,12.03794848009397,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/13</name>
+		<styleUrl>#blueMarker76157</styleUrl>
+		<Point>
+			<coordinates>107.8994345,12.0409545,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/14</name>
+		<styleUrl>#blueMarker76148</styleUrl>
+		<Point>
+			<coordinates>107.8990643920442,12.04141955761079,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/17</name>
+		<styleUrl>#blueMarker76145</styleUrl>
+		<Point>
+			<coordinates>107.8992713129666,12.04310293832023,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/18</name>
+		<styleUrl>#blueMarker7610</styleUrl>
+		<Point>
+			<coordinates>107.8990885,12.0438492,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/20</name>
+		<styleUrl>#blueMarker76120</styleUrl>
+		<Point>
+			<coordinates>107.8994548262908,12.04486997326542,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/21</name>
+		<styleUrl>#blueMarker76162</styleUrl>
+		<Point>
+			<coordinates>107.8993993,12.0454211,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/22</name>
+		<styleUrl>#blueMarker7613</styleUrl>
+		<Point>
+			<coordinates>107.8999254,12.0457631,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/23</name>
+		<styleUrl>#blueMarker76130</styleUrl>
+		<Point>
+			<coordinates>107.8997374877818,12.04630013178244,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/25</name>
+		<styleUrl>#blueMarker76155</styleUrl>
+		<Point>
+			<coordinates>107.8999267,12.046992,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/26</name>
+		<styleUrl>#blueMarker76184</styleUrl>
+		<Point>
+			<coordinates>107.9002793846017,12.04671608377462,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/27</name>
+		<styleUrl>#blueMarker76117</styleUrl>
+		<Point>
+			<coordinates>107.9007034604884,12.0466008843548,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/28</name>
+		<styleUrl>#blueMarker76127</styleUrl>
+		<Point>
+			<coordinates>107.9011281653188,12.0464844544689,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/29</name>
+		<styleUrl>#blueMarker7619</styleUrl>
+		<Point>
+			<coordinates>107.9015164366983,12.0461178217136,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/31</name>
+		<styleUrl>#blueMarker76183</styleUrl>
+		<Point>
+			<coordinates>107.9020815,12.046431,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/32</name>
+		<styleUrl>#blueMarker7614</styleUrl>
+		<Point>
+			<coordinates>107.9021159442892,12.04686421590249,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/33</name>
+		<styleUrl>#blueMarker76150</styleUrl>
+		<Point>
+			<coordinates>107.9026081559092,12.04679748605491,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/35</name>
+		<styleUrl>#blueMarker76179</styleUrl>
+		<Point>
+			<coordinates>107.9027865857791,12.04740443223841,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/36</name>
+		<styleUrl>#blueMarker7616</styleUrl>
+		<Point>
+			<coordinates>107.9022017679346,12.0475731047228,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/37</name>
+		<styleUrl>#blueMarker76113</styleUrl>
+		<Point>
+			<coordinates>107.9019836,12.0481272,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/38</name>
+		<styleUrl>#blueMarker76133</styleUrl>
+		<Point>
+			<coordinates>107.9016017709352,12.04839425540882,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/39</name>
+		<styleUrl>#blueMarker7612</styleUrl>
+		<Point>
+			<coordinates>107.9015839937324,12.04886554659533,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>#154</name>
+		<styleUrl>#blueMarker76170</styleUrl>
+		<Point>
+			<coordinates>107.9013104,12.052934,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/52</name>
+		<styleUrl>#blueMarker76158</styleUrl>
+		<Point>
+			<coordinates>107.9011106,12.0543593,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/56</name>
+		<styleUrl>#blueMarker76178</styleUrl>
+		<Point>
+			<coordinates>107.9034062171277,12.05551025131197,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/65</name>
+		<styleUrl>#blueMarker76129</styleUrl>
+		<Point>
+			<coordinates>107.9073259,12.0555601,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/68</name>
+		<styleUrl>#blueMarker76165</styleUrl>
+		<Point>
+			<coordinates>107.9085072581549,12.05627839077786,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/476/72</name>
+		<styleUrl>#blueMarker76119</styleUrl>
+		<Point>
+			<coordinates>107.9097943816183,12.05753464803737,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>476 ĐNO/26/574</name>
+		<styleUrl>#blueMarker76124</styleUrl>
+		<Point>
+			<coordinates>107.9131071,12.0578034,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>476 ĐNO/26/569</name>
+		<styleUrl>#blueMarker76171</styleUrl>
+		<Point>
+			<coordinates>107.9141466098476,12.05974844645535,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>476 ĐNO/26/562</name>
+		<styleUrl>#blueMarker76121</styleUrl>
+		<Point>
+			<coordinates>107.9146103898759,12.06282730426124,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>476 ĐNO/26/557</name>
+		<styleUrl>#blueMarker76156</styleUrl>
+		<Point>
+			<coordinates>107.9134527381376,12.06381391547547,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>VNPT 1 (476 ĐNO/26/553)</name>
+		<styleUrl>#blueMarker761</styleUrl>
+		<Point>
+			<coordinates>107.9144263051005,12.06559930353191,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>476 ĐNO/26/548</name>
+		<styleUrl>#blueMarker76153</styleUrl>
+		<Point>
+			<coordinates>107.9147698568741,12.0676550199249,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>476 ĐNO/26/543</name>
+		<styleUrl>#blueMarker76110</styleUrl>
+		<Point>
+			<coordinates>107.9154992365841,12.06956468453158,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>476 ĐNO/26/537</name>
+		<styleUrl>#blueMarker76166</styleUrl>
+		<Point>
+			<coordinates>107.9138690897148,12.07078207665859,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>476 ĐNO/26/536</name>
+		<styleUrl>#blueMarker76176</styleUrl>
+		<Point>
+			<coordinates>107.9128888864819,12.0708691146098,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>476 ĐNO/26/535</name>
+		<styleUrl>#blueMarker76128</styleUrl>
+		<Point>
+			<coordinates>107.9120803595205,12.07097195814527,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/74</name>
+		<LookAt>
+			<longitude>107.8229131968286</longitude>
+			<latitude>11.8949899017718</latitude>
+			<altitude>0</altitude>
+			<heading>-0.002184884562703996</heading>
+			<tilt>47.33152682887134</tilt>
+			<range>147.3404772975459</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#blueMarker867</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>107.8231696838493,11.8951230755674,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>210m</name>
+		<styleUrl>#stylemap_id01</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				107.854882227694,11.95721161223899,0 107.8563707678564,11.95825002564442,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>470 ĐNO/189/292</name>
+		<LookAt>
+			<longitude>107.8538573560989</longitude>
+			<latitude>11.98676209032135</latitude>
+			<altitude>0</altitude>
+			<heading>0.004983791754855143</heading>
+			<tilt>55.9611976583376</tilt>
+			<range>180.6834680062391</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#blueMarker76144</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>107.8541983057873,11.98664245360646,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>VNPT 2</name>
+		<LookAt>
+			<longitude>107.9156162128077</longitude>
+			<latitude>12.06995778378085</latitude>
+			<altitude>0</altitude>
+			<heading>0.02078282168589423</heading>
+			<tilt>42.92304082099235</tilt>
+			<range>255.2768109272309</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#blueMarker76180</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>107.9152903045444,12.06956492867664,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Trụ trồng mới (476 ĐNO/26/535A) TBA</name>
+		<LookAt>
+			<longitude>107.9125982155864</longitude>
+			<latitude>12.07108066026108</latitude>
+			<altitude>0</altitude>
+			<heading>0.03433780367664802</heading>
+			<tilt>34.33505141159842</tilt>
+			<range>137.5461926205049</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#blueMarker76141</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>107.9125072825037,12.07092401464066,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

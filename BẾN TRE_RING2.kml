@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>BẾN TRE_RING2.kmz</name>
+	<open>1</open>
+	<ExtendedData>
+		<mwm:name>
+      <mwm:lang code="default">BẾN TRE_RING2.kmz</mwm:lang>
+    </mwm:name><mwm:annotation>
+    </mwm:annotation><mwm:description>
+    </mwm:description><mwm:lastModified>2025-10-19T07:39:23.349Z</mwm:lastModified><mwm:accessRules>Local</mwm:accessRules>
+	</ExtendedData>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10441"></atom:link>
+	<Style id="placemark-red">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.me/placemarks/placemark-red.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>TTCMKV Châu Thành</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TTCMKV Châu Thành</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TTCMKV Châu Thành</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.36099,10.308029,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CA Xả Giao Long</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">CA Xả Giao Long</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">CA Xả Giao Long</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.40084,10.304674,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 471BD/113-29KV70M BD</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 471BD/113-29KV70M BD</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 471BD/113-29KV70M BD</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.604,10.195395,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 477/56 -04</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 477/56 -04</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 477/56 -04</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.40141,10.30475,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 477/56 -01 BĂNG ĐƯỜNG</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 477/56 -01 BĂNG ĐƯỜNG</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 477/56 -01 BĂNG ĐƯỜNG</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.3997,10.302958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 473-471/ 55 BĂNG ĐƯỜNG</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 473-471/ 55 BĂNG ĐƯỜNG</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 473-471/ 55 BĂNG ĐƯỜNG</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.39987,10.302354,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT472Btre/107-85</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT472Btre/107-85</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT472Btre/107-85</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.39926,10.302531,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT472Btre/107-71</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT472Btre/107-71</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT472Btre/107-71</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.39049,10.304323,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT472Btre/107-33</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT472Btre/107-33</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT472Btre/107-33</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.37482,10.307411,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT472Btre/107-01</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT472Btre/107-01</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT472Btre/107-01</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.36112,10.309611,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT472Btre-106</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT472Btre-106</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT472Btre-106</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.36091,10.309446,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 472Btre -102</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 472Btre -102</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 472Btre -102</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.36054,10.30809,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471-473BD/ 393</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471-473BD/ 393</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471-473BD/ 393</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.4589,10.275414,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CA Xả Phú Thuận</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">CA Xả Phú Thuận</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">CA Xả Phú Thuận</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.46217,10.282507,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/393/14- 17</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/393/14- 17</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/393/14- 17</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.47108,10.280509,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/370-13</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/370-13</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/370-13</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.47503,10.274357,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471-473BD/ 370</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471-473BD/ 370</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471-473BD/ 370</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.47227,10.268259,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/370-01</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/370-01</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/370-01</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.47234,10.268488,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 471-4473BD/ 344</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 471-4473BD/ 344</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 471-4473BD/ 344</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.48696,10.257877,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CA Xả Châu Hưng</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">CA Xả Châu Hưng</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">CA Xả Châu Hưng</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.49679,10.251695,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471-473BD/246 BD</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471-473BD/246 BD</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471-473BD/246 BD</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.53115,10.233283,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/264-01</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/264-01</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/264-01</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.53129,10.233529,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>HT01</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">HT01</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">HT01</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.53904,10.247119,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/264-18</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/264-18</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/264-18</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.5389,10.246902,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>HT17</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">HT17</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">HT17</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.54161,10.251465,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/219/42/11B-06</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/219/42/11B-06</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/219/42/11B-06</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.54188,10.251954,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/219/42/11B-01</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/219/42/11B-01</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/219/42/11B-01</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.54333,10.254426,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/219/42/11B-11</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/219/42/11B-11</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/219/42/11B-11</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.54353,10.25444,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CA Xả Lộc Thuận</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">CA Xả Lộc Thuận</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">CA Xả Lộc Thuận</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.54948,10.252021,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/219-42</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/219-42</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/219-42</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.54979,10.252157,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT473BD/219-01 BD</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT473BD/219-01 BD</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT473BD/219-01 BD</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.56021,10.229283,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 471-473BD/219 BD</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 471-473BD/219 BD</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 471-473BD/219 BD</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.56013,10.229048,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471-473BD/213 BC KV100M</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471-473BD/213 BC KV100M</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471-473BD/213 BC KV100M</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.56237,10.228969,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471-473BD/212 BC KV100M</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471-473BD/212 BC KV100M</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471-473BD/212 BC KV100M</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.563,10.228914,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471-473/113 BD</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471-473/113 BD</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471-473/113 BD</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.61352,10.210658,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471BD/113-01</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471BD/113-01</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471BD/113-01</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.61341,10.210488,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CA XẢ Thạnh Trị</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">CA XẢ Thạnh Trị</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">CA XẢ Thạnh Trị</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.59633,10.183863,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>KV100MTT471-473BD-186 BC</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">KV100MTT471-473BD-186 BC</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">KV100MTT471-473BD-186 BC</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.5766,10.223541,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471-473BD-185 BC KV1OOM</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471-473BD-185 BC KV1OOM</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471-473BD-185 BC KV1OOM</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.57715,10.223301,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471-473BD/140 BC KV1OOM</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471-473BD/140 BC KV1OOM</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471-473BD/140 BC KV1OOM</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.59847,10.215551,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471-473BD/139 BC KV100M</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471-473BD/139 BC KV100M</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471-473BD/139 BC KV100M</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.59916,10.215427,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471BD/113-30 BD KV70M</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471BD/113-30 BD KV70M</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471BD/113-30 BD KV70M</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.60349,10.194867,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 471BD/113-31</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 471BD/113-31</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 471BD/113-31</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.60322,10.194141,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 471BD/113-46 TRẠM BA</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 471BD/113-46 TRẠM BA</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 471BD/113-46 TRẠM BA</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.59785,10.185638,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471BD/78B-55</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471BD/78B-55</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471BD/78B-55</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.61126,10.179657,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471BD/78B-40</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471BD/78B-40</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471BD/78B-40</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.62087,10.178125,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT471BD/78B-01</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT471BD/78B-01</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT471BD/78B-01</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.62903,10.19978,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>TT 471-473BD-78</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TT 471-473BD-78</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">TT 471-473BD-78</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.62925,10.199878,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>CA Xả Bình Đại</name>
+		<styleUrl>#placemark-red</styleUrl>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">CA Xả Bình Đại</mwm:lang>
+      </mwm:name><mwm:customName>
+        <mwm:lang code="default">CA Xả Bình Đại</mwm:lang>
+      </mwm:customName><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<Point>
+			<coordinates>106.69136,10.188622,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Tuyến cáp trụ trung thế</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">Tuyến cáp trụ trung thế</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.36101,10.308031,0 106.36054,10.308096,0 106.36065,10.308526,0 106.36092,10.309452,0 106.36093,10.309465,0 106.36111,10.309613,0 106.36351,10.309274,0 106.37358,10.30768,0 106.38511,10.305435,0 106.39154,10.304085,0 106.39301,10.303744,0 106.39986,10.302367,0 106.39972,10.302945,0 106.40141,10.304764,0 106.40094,10.3048,0 106.40086,10.30468,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.40088,10.304675,0 106.40095,10.304782,0 106.40137,10.30475,0 106.40078,10.30412,0 106.3997,10.302955,0 106.39987,10.302321,0 106.40086,10.302121,0 106.40271,10.301737,0 106.40674,10.300111,0 106.41367,10.297144,0 106.41934,10.29437,0 106.41998,10.294196,0 106.42725,10.290702,0 106.433,10.287926,0 106.43785,10.285611,0 106.44215,10.283467,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ HẠ THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ HẠ THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.44215,10.283473,0 106.44304,10.283012,0 106.4437,10.28269,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRÊN THÀNH CẦU  300M</name>
+		<Style>
+			<LineStyle>
+				<color>ffff0000</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRÊN THÀNH CẦU  300M</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.4437,10.282695,0 106.44382,10.282805,0 106.44543,10.282026,0 106.44561,10.281945,0 106.44572,10.281835,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP TRỤ HẠ THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP TRỤ HẠ THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.44573,10.28183,0 106.44624,10.281576,0 106.44682,10.281307,0 106.44693,10.281261,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.44694,10.281258,0 106.44933,10.280104,0 106.45092,10.279332,0 106.45263,10.278524,0 106.4589,10.275429,0 106.45896,10.275694,0 106.45931,10.277192,0 106.45949,10.277955,0 106.45987,10.278781,0 106.46098,10.28095,0 106.46128,10.281608,0 106.46114,10.283063,0 106.4621,10.282806,0 106.46227,10.282755,0 106.46218,10.282526,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.46221,10.282524,0 106.46227,10.282773,0 106.46231,10.282971,0 106.46275,10.282902,0 106.46362,10.282812,0 106.46419,10.282617,0 106.46517,10.282322,0 106.46573,10.282127,0 106.46686,10.281842,0 106.46882,10.281257,0 106.46983,10.280967,0 106.47108,10.280525,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ HẠ THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ HẠ THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.47108,10.280517,0 106.47155,10.280314,0 106.47167,10.279951,0 106.47336,10.278869,0 106.4744,10.278142,0 106.47473,10.278476,0 106.47575,10.278391,0 106.47711,10.27834,0 106.47729,10.278005,0 106.47723,10.277654,0 106.47692,10.277003,0 106.47661,10.276457,0 106.47643,10.275744,0 106.47596,10.274713,0 106.47574,10.274406,0 106.47538,10.274359,0 106.47504,10.274386,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.47502,10.274374,0 106.47446,10.273726,0 106.47343,10.272385,0 106.47313,10.271966,0 106.4728,10.270582,0 106.47228,10.268268,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.47229,10.268255,0 106.47232,10.268246,0 106.47371,10.267198,0 106.4764,10.265099,0 106.47956,10.262777,0 106.48579,10.258584,0 106.48697,10.257892,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.4968,10.251688,0 106.49715,10.251944,0 106.49532,10.253031,0 106.4924,10.254712,0 106.48953,10.256327,0 106.48697,10.257888,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.53115,10.233288,0 106.53079,10.233402,0 106.52987,10.23366,0 106.52891,10.233916,0 106.52889,10.233917,0 106.52821,10.233996,0 106.52678,10.234048,0 106.52582,10.234047,0 106.52519,10.234106,0 106.52384,10.234322,0 106.52282,10.234627,0 106.52175,10.234979,0 106.52014,10.235597,0 106.51878,10.236349,0 106.51784,10.237008,0 106.51728,10.237282,0 106.5159,10.238153,0 106.51478,10.238766,0 106.51418,10.239154,0 106.51242,10.239986,0 106.51213,10.240424,0 106.51057,10.241561,0 106.50986,10.242044,0 106.50985,10.242067,0 106.50841,10.243138,0 106.50593,10.245306,0 106.50213,10.248571,0 106.49954,10.250466,0 106.49721,10.251909,0 106.49686,10.251671,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.53116,10.233284,0 106.53129,10.233549,0 106.53211,10.235013,0 106.5327,10.236057,0 106.53355,10.237552,0 106.53452,10.239335,0 106.53578,10.241565,0 106.53714,10.243911,0 106.53835,10.246007,0 106.5389,10.246908,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ HẠ THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ HẠ THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.54161,10.251463,0 106.53891,10.246936,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.54948,10.252035,0 106.54977,10.252165,0 106.54943,10.252409,0 106.54854,10.252738,0 106.54724,10.253164,0 106.54651,10.253404,0 106.54506,10.253903,0 106.54443,10.254123,0 106.54352,10.254447,0 106.54334,10.254477,0 106.54291,10.253763,0 106.54188,10.251956,0 106.54161,10.251468,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.54949,10.252027,0 106.5498,10.252156,0 106.55011,10.251682,0 106.55091,10.250533,0 106.55106,10.25041,0 106.55113,10.250157,0 106.55178,10.249252,0 106.55276,10.24779,0 106.55366,10.246502,0 106.55473,10.244788,0 106.55521,10.244055,0 106.55552,10.243531,0 106.55634,10.241965,0 106.55753,10.23871,0 106.55847,10.234597,0 106.55982,10.230493,0 106.56011,10.22958,0 106.56022,10.229283,0 106.56013,10.229075,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.59634,10.183868,0 106.59685,10.183628,0 106.59703,10.183772,0 106.59791,10.18583,0 106.59886,10.187811,0 106.59965,10.189539,0 106.5998,10.19002,0 106.59999,10.190703,0 106.60102,10.191867,0 106.60208,10.192973,0 106.60321,10.194163,0 106.60351,10.194844,0 106.60389,10.195261,0 106.60487,10.196561,0 106.60534,10.197293,0 106.60585,10.197964,0 106.6065,10.198763,0 106.60731,10.19986,0 106.6074,10.20032,0 106.60775,10.200687,0 106.60908,10.202823,0 106.61013,10.20453,0 106.61108,10.206235,0 106.61251,10.208731,0 106.61289,10.209495,0 106.61322,10.210166,0 106.61354,10.210673,0 106.61301,10.210895,0 106.60852,10.21242,0 106.60851,10.212434,0 106.60543,10.213473,0 106.60206,10.214626,0 106.59912,10.215526,0 106.59835,10.21566,0 106.59566,10.216159,0 106.59388,10.216517,0 106.5922,10.21694,0 106.59003,10.217722,0 106.58772,10.218692,0 106.58509,10.219789,0 106.58335,10.220634,0 106.58172,10.221284,0 106.58016,10.222013,0 106.58017,10.222024,0 106.58019,10.222046,0 106.57819,10.222877,0 106.57719,10.22323,0 106.57646,10.223629,0 106.57541,10.224146,0 106.57342,10.225039,0 106.57028,10.226511,0 106.56805,10.227542,0 106.56515,10.228881,0 106.56442,10.229047,0 106.56301,10.228994,0 106.56161,10.22901,0 106.56095,10.229059,0 106.56013,10.229075,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ HẠ THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ HẠ THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.59636,10.183813,0 106.59686,10.183596,0 106.59677,10.183201,0 106.59819,10.183053,0 106.60009,10.182704,0 106.60184,10.182355,0 106.60437,10.181859,0 106.60521,10.181767,0 106.60558,10.18188,0 106.60593,10.18192,0 106.60651,10.181757,0 106.60846,10.181184,0 106.60978,10.180569,0 106.6105,10.180034,0 106.61126,10.179668,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>TUYẾN CÁP ĐI TRỤ TRUNG THẾ</name>
+		<Style>
+			<LineStyle>
+				<color>ff00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<ExtendedData>
+			<mwm:name>
+        <mwm:lang code="default">TUYẾN CÁP ĐI TRỤ TRUNG THẾ</mwm:lang>
+      </mwm:name><mwm:description>
+      </mwm:description><mwm:localId>0</mwm:localId><mwm:additionalStyle>
+      </mwm:additionalStyle><mwm:visibility>1</mwm:visibility>
+		</ExtendedData>
+		<LineString>
+			<coordinates>
+				106.61129,10.179662,0 106.61281,10.178856,0 106.61424,10.178654,0 106.61739,10.178481,0 106.62089,10.17815,0 106.62112,10.179594,0 106.62082,10.182307,0 106.62074,10.183448,0 106.62129,10.186762,0 106.62183,10.189636,0 106.62232,10.191057,0 106.62335,10.19203,0 106.62412,10.193493,0 106.62551,10.195029,0 106.62649,10.195533,0 106.62739,10.197138,0 106.62824,10.198626,0 106.62903,10.199788,0 106.62927,10.199902,0 106.63083,10.198808,0 106.63214,10.197906,0 106.63307,10.197276,0 106.63457,10.196198,0 106.63516,10.195825,0 106.63555,10.195445,0 106.63591,10.195505,0 106.63646,10.195817,0 106.63762,10.19649,0 106.63854,10.196754,0 106.63983,10.197079,0 106.64148,10.197846,0 106.64415,10.198989,0 106.64573,10.199603,0 106.64717,10.199963,0 106.6482,10.200259,0 106.6495,10.20056,0 106.65196,10.200961,0 106.65284,10.201131,0 106.65487,10.201408,0 106.65833,10.201612,0 106.66117,10.201796,0 106.66274,10.201946,0 106.66599,10.202978,0 106.67074,10.204438,0 106.67394,10.205481,0 106.67556,10.205943,0 106.67843,10.206832,0 106.68017,10.207484,0 106.6817,10.20812,0 106.68227,10.20829,0 106.68278,10.208091,0 106.68434,10.205847,0 106.68695,10.200894,0 106.68899,10.196506,0 106.6897,10.194731,0 106.69147,10.190646,0 106.69255,10.188668,0 106.69162,10.188078,0 106.69135,10.188643,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
