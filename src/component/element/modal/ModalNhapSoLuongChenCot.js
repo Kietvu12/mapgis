@@ -10,7 +10,9 @@ import {
   arrayInsert,
   findCotByUUidCot,
   findMidLatLong,
-  reRenderMap
+  reRenderMap,
+  projectPointOntoPolyline,
+  findNearestPolyline
 } from '../../map/RootFunction'
 import { BASE_COT } from '../../const/Const_Obj'
 export const enableModalNhapSoLuongChenCot = () => {
@@ -306,7 +308,39 @@ export const ModalNhapSoLuongChenCot = () => {
       }
     ]
     
-    const rs_list_cot_chen = findMidLatLong(arr_coor, so_luong_chen_cot_local + 2)
+    // findMidLatLong có loop i=1; i<number nên sẽ trả về (number-1) điểm
+    // Muốn chèn n cột thì phải truyền n+1
+    let rs_list_cot_chen = findMidLatLong(arr_coor, so_luong_chen_cot_local + 1)
+    
+    // Tìm polyline gần nhất nếu có
+    const allPolylines = []
+    const getPolylinesFromFolder = (folder) => {
+      if (folder.list_group_duong_va_cot) {
+        folder.list_group_duong_va_cot.forEach(item => {
+          if (item.type === 'duong' || item.type === 'track') {
+            allPolylines.push(item)
+          }
+        })
+      }
+    }
+    getPolylinesFromFolder(targetFolder)
+    
+    // Nếu có polyline, chiếu các điểm lên polyline
+    if (allPolylines.length > 0) {
+      const nearestPolyline = findNearestPolyline(
+        arr_coor[0],
+        arr_coor[1],
+        allPolylines
+      )
+      
+      if (nearestPolyline && nearestPolyline.list_do_duong) {
+        console.log('Tìm thấy polyline gần nhất:', nearestPolyline.name)
+        // Chiếu từng điểm lên polyline
+        rs_list_cot_chen = rs_list_cot_chen.map(point => {
+          return projectPointOntoPolyline(point, nearestPolyline.list_do_duong)
+        })
+      }
+    }
     
     // Tạo tên cột mới dựa trên tên cột đầu
     let name = cotDau_local.name.trim()
@@ -340,20 +374,7 @@ export const ModalNhapSoLuongChenCot = () => {
       count++
     }
     
-    // Cập nhật số thứ tự các cột phía sau
-    for (let j = maxIndex + rs_list_cot_chen.length; j < targetFolder.list_group_duong_va_cot.length; j++) {
-      const item = targetFolder.list_group_duong_va_cot[j]
-      if (item.type === 'duong') continue
-      
-      let name_tg = item.name.trim()
-      let count_tg = getCountString(name_tg, '').split('').reverse().join('')
-      let pos_tg = count_tg.length
-      
-      if (isNumber(count_tg)) {
-        let newCount = parseInt(count_tg) + rs_list_cot_chen.length
-        item.name = name_tg.slice(0, name_tg.length - pos_tg) + '' + newCount
-      }
-    }
+    // Không tịnh tiến số thứ tự của các cột cũ - giữ nguyên tên cột cũ
     
     dispatch(changeRootFolder([...list_root_folder_local]))
     reRenderMap([...list_root_folder_local])
@@ -423,7 +444,9 @@ export const ModalNhapSoLuongChenCot = () => {
       return
     }
     // lấy ra danh sách tọa độ của các cột cần chèn
-    let rs_list_cot_chen = findMidLatLong(arr_coor, so_luong_chen_cot_local)
+    // findMidLatLong có loop i=1; i<number nên sẽ trả về (number-1) điểm
+    // Muốn chèn n cột thì phải truyền n+1
+    let rs_list_cot_chen = findMidLatLong(arr_coor, so_luong_chen_cot_local + 1)
     // lấy ra thông tin cột
     let cot = {
       ...findCotByUUidCot(
@@ -465,39 +488,7 @@ export const ModalNhapSoLuongChenCot = () => {
         }
       }
     }
-    // thay đổi số thứ tự các cột phía dưới
-    for (let i = 0; i < list_root_folder_local.length; i++) {
-      if (list_root_folder_local[i].uuid_folder == uuid_folder_local) {
-        for (
-          let j = index_local + 1;
-          j < list_root_folder_local[i].list_group_duong_va_cot.length;
-          j++
-        ) {
-          if (
-            list_root_folder_local[i].list_group_duong_va_cot[j].type ===
-            'duong'
-          ) {
-            continue
-          }
-          // chèn vào vị trí index_local+1
-          let name_tg =
-            list_root_folder_local[i].list_group_duong_va_cot[j].name.trim()
-          let count_tg = getCountString(name_tg, '')
-            .split('')
-            .reverse()
-            .join('')
-          let pos_tg = count_tg.length
-          console.log(pos_tg)
-          // nếu tận cùng là số mới thay đổi số thứ tự
-          if (isNumber(count_tg)) {
-            count_tg = parseInt(count_tg) + 1
-            list_root_folder_local[i].list_group_duong_va_cot[j].name =
-              name_tg.slice(0, name_tg.length - pos_tg) + '' + count
-            count++
-          }
-        }
-      }
-    }
+    // Không tịnh tiến số thứ tự của các cột cũ - giữ nguyên tên cột cũ
     dispatch(changeRootFolder([...list_root_folder_local]))
 
     // enableFormThemCot()
@@ -515,6 +506,47 @@ export const ModalNhapSoLuongChenCot = () => {
     // Set cột được chọn làm cột đầu mặc định
     if (state_sua_cot && state_sua_cot.type === 'cot' && !cotDau) {
       setCotDau(state_sua_cot)
+      
+      // Tự động tìm và set cột đích là cột ngay sau cột đầu
+      if (list_root_folder && list_root_folder.length > 0) {
+        const folder = findFolderContainingCotForFilter(list_root_folder, state_sua_cot.uuid_cot)
+        if (folder && folder.list_group_duong_va_cot) {
+          // Tìm index của cột đầu trong folder
+          let cotDauIndex = -1
+          for (let i = 0; i < folder.list_group_duong_va_cot.length; i++) {
+            const item = folder.list_group_duong_va_cot[i]
+            if (item.type === 'cot' && item.uuid_cot === state_sua_cot.uuid_cot) {
+              cotDauIndex = i
+              break
+            }
+          }
+          
+        // Tìm cột tiếp theo sau cột đầu; nếu không có, chọn cột trước đó
+        let picked = false
+        if (cotDauIndex !== -1 && cotDauIndex < folder.list_group_duong_va_cot.length - 1) {
+          for (let i = cotDauIndex + 1; i < folder.list_group_duong_va_cot.length; i++) {
+            const item = folder.list_group_duong_va_cot[i]
+            if (item.type === 'cot') {
+              setCotCuoi(item)
+              picked = true
+              console.log('Tự động chọn cột cuối (sau):', item.name)
+              break
+            }
+          }
+        }
+        if (!picked && cotDauIndex > 0) {
+          for (let i = cotDauIndex - 1; i >= 0; i--) {
+            const item = folder.list_group_duong_va_cot[i]
+            if (item.type === 'cot') {
+              setCotCuoi(item)
+              picked = true
+              console.log('Tự động chọn cột cuối (trước):', item.name)
+              break
+            }
+          }
+        }
+        }
+      }
     }
   }, [state_sua_cot])
   

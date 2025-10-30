@@ -42,6 +42,7 @@ import { FormThemDuong } from '../element/orther_element/FormThemDuong'
 import {
   disabledAllForm,
   findCotByUUidCot,
+  findNearestPolyline,
   getIndexCot,
   getIndexCotForManualInsert,
   getSTTCot,
@@ -49,6 +50,7 @@ import {
   GRAPHIC_LAYER,
   handleXoaNhieuCot_Common,
   MAP,
+  projectPointOntoPolyline,
   reRenderMap,
   reRenderNen,
   reRenderViewMap,
@@ -87,6 +89,7 @@ const RootMap = props => {
       return () => clearTimeout(timer)
     }
   }, [list_root_folder, saveState])
+  
   const state_them_cot = useSelector(state => state.baseMap.state_them_cot)
   const state_sua_cot = useSelector(state => state.baseMap.state_sua_cot)
   const cot_goc_chen_cot = useSelector(state => state.baseMap.cot_goc_chen_cot)
@@ -96,6 +99,20 @@ const RootMap = props => {
 
   const type_map = useSelector(state => state.baseMap.type_map)
   const screen_point = useSelector(state => state.baseMap.screen_point)
+  const active_control = useSelector(state => state.baseMap.active_control)
+  
+  // Reset counter khi bắt đầu chế độ chèn cột thủ công
+  useEffect(() => {
+    if (active_control === 'chen_cot_thu_cong') {
+      // Không reset counter ở đây, để giữ cho việc chèn tiếp
+      // Chỉ reset khi chuyển sang mode khác
+    } else {
+      // Reset counter khi thoát chế độ chèn cột thủ công
+      if (get_manualInsertCount_ref.current > 0) {
+        set_manualInsertCount_ref(0)
+      }
+    }
+  }, [active_control])
   var mapClick, mapDrag, mapOver
   const [
     check_save_duong_ref,
@@ -108,7 +125,6 @@ const RootMap = props => {
   let index_chen_cot = useSelector(state => state.baseMap.index_chen_cot)
 
   const paths_duong = useSelector(state => state.baseMap.paths_duong)
-  const active_control = useSelector(state => state.baseMap.active_control)
   const [
     index_chen_cot_ref,
     set_index_chen_cot_ref,
@@ -156,6 +172,13 @@ const RootMap = props => {
     set_cot_goc_chen_cot_ref,
     get_cot_goc_chen_cot_ref
   ] = useStateRef(cot_goc_chen_cot)
+  
+  // Ref để lưu số đếm cho tên cột khi chèn thủ công
+  const [
+    manualInsertCount_ref,
+    set_manualInsertCount_ref,
+    get_manualInsertCount_ref
+  ] = useStateRef(0)
 
   const [
     active_control_ref,
@@ -308,22 +331,20 @@ const RootMap = props => {
   // Helper function to find insertion index recursively in nested folders
   const findIndexForManualInsertRecursive = (items, cotGoc, lon, lat, currentFolder = null) => {
     let indexCotGoc = -1
-    let indexCotDich = -1
-    let minDistance = Infinity
     let results = { index: -1, foundInFolder: null, items: null }
-    
+
     items.forEach((item, index) => {
       // If this is a nested folder, search inside it recursively
       if (item.type === 'folder' || (item.folder_name && item.list_group_duong_va_cot && Array.isArray(item.list_group_duong_va_cot))) {
         // Check if column is in this nested folder
         const nestedResults = findIndexForManualInsertRecursive(
-          item.list_group_duong_va_cot, 
-          cotGoc, 
-          lon, 
-          lat, 
+          item.list_group_duong_va_cot,
+          cotGoc,
+          lon,
+          lat,
           item  // Pass current item as the folder context
         )
-        
+
         if (nestedResults.index !== -1 && nestedResults.foundInFolder) {
           // Found in this nested folder
           results = nestedResults
@@ -335,54 +356,125 @@ const RootMap = props => {
           indexCotGoc = index
           console.log('Found source column at index:', index, 'in items array')
         }
-        
-        // Find closest column after source column
-        if (index > indexCotGoc && indexCotGoc !== -1) {
-          const distance = Math.sqrt(
-            Math.pow(item.coor[0] - lon, 2) + 
-            Math.pow(item.coor[1] - lat, 2)
-          )
-          if (distance < minDistance) {
-            minDistance = distance
-            indexCotDich = index
-            console.log('Found closer target column at index:', index, 'distance:', distance)
-          }
-        }
       }
     })
-    
-    // If we found the source column in current items array, set results
+
+    // If we found the source column in current items array, decide based on nearer neighbor
     if (indexCotGoc !== -1 && !results.foundInFolder) {
-      // Nếu tìm thấy cột đích gần nhất, chèn vào giữa cột gốc và cột đích
-      // (tức là chèn vào index của cột đích, nó sẽ đẩy cột đích xuống dưới)
-      if (indexCotDich !== -1) {
-        results.index = indexCotDich
-      } else {
-        // Không tìm thấy cột đích, chèn sau cột gốc
-        results.index = indexCotGoc + 1
+      // Find previous and next neighboring columns
+      let prevIndex = -1
+      let nextIndex = -1
+      for (let i = indexCotGoc - 1; i >= 0; i--) {
+        if (items[i] && items[i].type === 'cot') { prevIndex = i; break }
       }
-      
+      for (let i = indexCotGoc + 1; i < items.length; i++) {
+        if (items[i] && items[i].type === 'cot') { nextIndex = i; break }
+      }
+
+      // Helper: squared distance point to segment AB
+      const dist2PointToSegment = (px, py, ax, ay, bx, by) => {
+        const abx = bx - ax
+        const aby = by - ay
+        const apx = px - ax
+        const apy = py - ay
+        const ab2 = abx * abx + aby * aby
+        if (ab2 === 0) {
+          // A and B are the same point
+          const dx = px - ax
+          const dy = py - ay
+          return dx * dx + dy * dy
+        }
+        let t = (apx * abx + apy * aby) / ab2
+        if (t < 0) t = 0
+        if (t > 1) t = 1
+        const cx = ax + t * abx
+        const cy = ay + t * aby
+        const dx = px - cx
+        const dy = py - cy
+        return dx * dx + dy * dy
+      }
+
+      // Compute direction from source towards click vs towards neighbors using angle (dot product)
+      let useNext = false
+      if (prevIndex === -1 && nextIndex !== -1) {
+        useNext = true
+      } else if (nextIndex === -1 && prevIndex !== -1) {
+        useNext = false
+      } else if (prevIndex !== -1 && nextIndex !== -1) {
+        const p = { x: lon, y: lat }
+        const prev = { x: items[prevIndex].coor[0], y: items[prevIndex].coor[1] }
+        const src = { x: items[indexCotGoc].coor[0], y: items[indexCotGoc].coor[1] }
+        const next = { x: items[nextIndex].coor[0], y: items[nextIndex].coor[1] }
+
+        // Vectors from source
+        const vSC = { x: p.x - src.x, y: p.y - src.y }
+        const vSP = { x: prev.x - src.x, y: prev.y - src.y }
+        const vSN = { x: next.x - src.x, y: next.y - src.y }
+
+        const dot = (a, b) => a.x * b.x + a.y * b.y
+        const len = v => Math.sqrt(v.x * v.x + v.y * v.y)
+        const safeLen = v => {
+          const l = len(v)
+          return l === 0 ? 1 : l
+        }
+        const cosPrev = dot(vSC, vSP) / (safeLen(vSC) * safeLen(vSP))
+        const cosNext = dot(vSC, vSN) / (safeLen(vSC) * safeLen(vSN))
+
+        // Prefer the side with larger cosine (smaller angle)
+        if (isFinite(cosPrev) && isFinite(cosNext)) {
+          if (Math.abs(cosNext - cosPrev) > 1e-6) {
+            useNext = cosNext > cosPrev
+          } else {
+            // Tie-breaker: fall back to distance-to-segment
+            const dPrev2 = dist2PointToSegment(p.x, p.y, prev.x, prev.y, src.x, src.y)
+            const dNext2 = dist2PointToSegment(p.x, p.y, src.x, src.y, next.x, next.y)
+            useNext = dNext2 <= dPrev2
+          }
+        } else {
+          // Fallback to distance-to-segment if cosine not reliable
+          const dPrev2 = dist2PointToSegment(p.x, p.y, prev.x, prev.y, src.x, src.y)
+          const dNext2 = dist2PointToSegment(p.x, p.y, src.x, src.y, next.x, next.y)
+          useNext = dNext2 <= dPrev2
+        }
+      } else {
+        // No neighbors, default insert after source
+        results.index = indexCotGoc + 1
+        results.indexCotGoc = indexCotGoc
+        results.foundInFolder = currentFolder || null
+        results.items = items
+        console.log('No neighbors found. Insert after source at', results.index)
+        return results
+      }
+
+      // Set insertion index between source and nearer neighbor
+      if (useNext) {
+        results.index = nextIndex
+        console.log('Chọn cột đích là cột SAU gần nhất tại index:', nextIndex)
+      } else {
+        results.index = indexCotGoc // insert before source to be between prev and source
+        console.log('Chọn cột đích là cột TRƯỚC gần nhất. Chèn trước cột gốc tại index:', indexCotGoc)
+      }
+
       results.indexCotGoc = indexCotGoc
-      results.indexCotDich = indexCotDich
       results.foundInFolder = currentFolder || null  // Use current folder context
       results.items = items  // Store reference to items array
       console.log('Setting results - index:', results.index, 'in folder:', currentFolder?.folder_name || 'root')
-      console.log('Index cột gốc:', indexCotGoc, ', Index cột đích:', indexCotDich)
     }
-    
+
     return results
   }
   
   const findIndexForManualInsert = (cotGoc, lon, lat) => {
-    // Tìm vị trí chèn dựa trên cột gốc và điểm click (hỗ trợ nested folders)
+    // Tìm vị trí chèn dựa trên cột gốc và điểm click (hỗ trợ nested folders và nền bản đồ)
     console.log('findIndexForManualInsert - cotGoc:', cotGoc)
     
     if (!cotGoc || !cotGoc.uuid_folder) {
       console.error('Cột gốc không hợp lệ:', cotGoc)
-      return { index: -1, foundInFolder: null, items: null }
+      return { index: -1, foundInFolder: null, items: null, isInNenList: false }
     }
     
-    // Search through all folders for the target folder and insertion point
+    // Search through all folders in list_root_folder
+    console.log('Searching in list_root_folder...')
     for (let folder of get_list_root_folder_ref.current) {
       if (folder.uuid_folder === cotGoc.uuid_folder) {
         console.log('Found target root folder:', folder.folder_name)
@@ -399,12 +491,83 @@ const RootMap = props => {
         
         if (results.index !== -1) {
           console.log('Insertion index found:', results.index, 'in folder:', results.foundInFolder?.folder_name || 'root')
-          return results
+          return { ...results, isInNenList: false }
         }
+      }
+      
+      // Also search recursively in nested folders
+      const nestedResults = findIndexInNestedFolder(folder.list_group_duong_va_cot, cotGoc, lon, lat, folder)
+      if (nestedResults.index !== -1) {
+        return { ...nestedResults, isInNenList: false }
+      }
+    }
+    
+    // Search in list_root_nen (nền bản đồ)
+    console.log('Not found in root folders, searching in list_root_nen...')
+    let list_root_nen = getItemSessionStorage('root_nen') || []
+    
+    for (let folder of list_root_nen) {
+      if (folder.uuid_folder === cotGoc.uuid_folder) {
+        console.log('Found target nen folder:', folder.folder_name)
+        
+        const results = findIndexForManualInsertRecursive(
+          folder.list_group_duong_va_cot,
+          cotGoc,
+          lon,
+          lat,
+          folder
+        )
+        
+        if (results.index !== -1) {
+          console.log('Insertion index found in nen:', results.index)
+          return { ...results, isInNenList: true }
+        }
+      }
+      
+      // Also search recursively in nested folders in nen
+      const nestedResults = findIndexInNestedFolder(folder.list_group_duong_va_cot, cotGoc, lon, lat, folder)
+      if (nestedResults.index !== -1) {
+        return { ...nestedResults, isInNenList: true }
       }
     }
     
     console.log('Could not find insertion point')
+    return { index: -1, foundInFolder: null, items: null, isInNenList: false }
+  }
+  
+  // Helper function to search in nested folders
+  const findIndexInNestedFolder = (items, cotGoc, lon, lat, parentFolder) => {
+    if (!items || !Array.isArray(items)) {
+      return { index: -1, foundInFolder: null, items: null }
+    }
+    
+    for (let item of items) {
+      // Check if this is a nested folder
+      if (item.type === 'folder' || (item.folder_name && item.list_group_duong_va_cot && Array.isArray(item.list_group_duong_va_cot))) {
+        if (item.uuid_folder === cotGoc.uuid_folder) {
+          console.log('Found target nested folder:', item.folder_name)
+          
+          const results = findIndexForManualInsertRecursive(
+            item.list_group_duong_va_cot,
+            cotGoc,
+            lon,
+            lat,
+            item
+          )
+          
+          if (results.index !== -1) {
+            return results
+          }
+        }
+        
+        // Continue searching deeper
+        const deeperResults = findIndexInNestedFolder(item.list_group_duong_va_cot, cotGoc, lon, lat, item)
+        if (deeperResults.index !== -1) {
+          return deeperResults
+        }
+      }
+    }
+    
     return { index: -1, foundInFolder: null, items: null }
   }
 
@@ -416,27 +579,39 @@ const RootMap = props => {
      * @author XHieu
      */
 
-    // Xử lý tên cột - nếu là chèn thủ công thì thêm -1, -2, -3 vào cuối
+    // Xử lý tên cột
     let name = state_them_cot.name.trim()
-    let cotGoc = cot_goc_chen_cot || state_sua_cot_ref.current
     
-    if (get_active_control_ref.current == 'chen_cot_thu_cong' && cotGoc) {
-      // Lấy tên từ cột gốc và thêm hậu tố -1, -2, -3,...
-      name = cotGoc.name.trim()
-      
-      // Kiểm tra xem tên đã có hậu tố -1, -2,... chưa
-      const hasSuffix = name.includes('-') && /-\d+$/.test(name)
-      
-      if (hasSuffix) {
-        // Nếu có rồi thì tăng số hậu tố
-        const parts = name.split('-')
-        const lastNum = parseInt(parts[parts.length - 1])
-        if (!isNaN(lastNum)) {
-          name = parts.slice(0, -1).join('-') + '-' + (lastNum + 1)
+    // Với chèn thủ công, nếu tên đang rỗng thì tự sinh dựa trên vị trí chèn
+    let cotGoc = cot_goc_chen_cot || state_sua_cot_ref.current
+    if (get_active_control_ref.current === 'chen_cot_thu_cong' && (!name || name === '')) {
+      try {
+        const cotGocInfo = cotGoc
+        const itemsArray = cotGocInfo?.itemsArray
+        const insertionIndex = get_index_chen_cot_ref.current
+        if (itemsArray && Array.isArray(itemsArray) && insertionIndex != null && insertionIndex >= 0) {
+          // Tìm cột liền trước vị trí chèn để kế thừa thứ tự
+          let prevIndex = insertionIndex - 1
+          let prevCot = null
+          for (let i = prevIndex; i >= 0; i--) {
+            if (itemsArray[i] && itemsArray[i].type === 'cot') {
+              prevCot = itemsArray[i]
+              break
+            }
+          }
+          // Nếu không có cột trước đó, fallback dùng cột gốc
+          const baseCot = prevCot || cotGocInfo
+          if (baseCot && baseCot.name) {
+            let baseName = baseCot.name.trim()
+            let baseNumStr = getCountString(baseName, '').split('').reverse().join('')
+            let baseNum = isNumber(baseNumStr) ? parseInt(baseNumStr) : 0
+            let pos = baseNumStr.length
+            let prefix = baseName.slice(0, baseName.length - pos)
+            name = prefix + (baseNum + 1)
+          }
         }
-      } else {
-        // Nếu chưa có thì thêm -1
-        name = name + '-1'
+      } catch (e) {
+        // giữ name rỗng, sẽ được xử lý phía dưới nếu cần
       }
     }
     
@@ -449,16 +624,20 @@ const RootMap = props => {
       count_display = parseInt(count_display) + 1
     }
     if (name == '') {
-      Const_Libs.TOAST.error('Vui lòng nhập tên cột')
-      dispatch(
-        setStateThemCot({
-          ...get_state_them_cot_ref.current,
-          action: false
-        })
-      )
-      return
+      // Trong chế độ chèn thủ công, cho phép auto đặt tên phía dưới, không bắt buộc nhập thủ công
+      if (get_active_control_ref.current !== 'chen_cot_thu_cong') {
+        Const_Libs.TOAST.error('Vui lòng nhập tên cột')
+        dispatch(
+          setStateThemCot({
+            ...get_state_them_cot_ref.current,
+            action: false
+          })
+        )
+        return
+      }
     }
 
+    // Lấy thông tin cột gốc để áp dụng cho cột mới
     let cot_can_them = {
       ...get_state_them_cot_ref.current,
       uuid_cot: create_UUID(),
@@ -470,13 +649,26 @@ const RootMap = props => {
       active_cot: true,
       type: 'cot',
       uuid_folder: get_current_uuid_folder_ref.current,
-      src_icon:
-        get_state_them_cot_ref.current.cot.ma_loai_cot == ''
-          ? get_state_them_cot_ref.current.src_icon
-          : IMAGES_COT_POTECO.filter(
-              item =>
-                item.ma_cot == get_state_them_cot_ref.current.cot.ma_loai_cot
-            )[0].src
+      // Áp dụng thông tin từ cột gốc nếu có (cho chèn thủ công)
+      ...(cotGoc && get_active_control_ref.current === 'chen_cot_thu_cong' ? {
+        cot: cotGoc.cot,
+        phu_kien: cotGoc.phu_kien,
+        vat_tu: cotGoc.vat_tu,
+        dia_diem: cotGoc.dia_diem,
+        ly_trinh: cotGoc.ly_trinh,
+        be_cap: cotGoc.be_cap,
+        phu_kien_cap_ADSS: cotGoc.phu_kien_cap_ADSS,
+        phu_kien_cap_AC: cotGoc.phu_kien_cap_AC,
+        src_icon: cotGoc.src_icon || get_state_them_cot_ref.current.src_icon
+      } : {
+        src_icon:
+          get_state_them_cot_ref.current.cot.ma_loai_cot == ''
+            ? get_state_them_cot_ref.current.src_icon
+            : IMAGES_COT_POTECO.filter(
+                item =>
+                  item.ma_cot == get_state_them_cot_ref.current.cot.ma_loai_cot
+              )[0].src
+      })
     }
     
     console.log('=== ADDING NEW POINT ===')
@@ -490,13 +682,27 @@ const RootMap = props => {
         get_state_them_cot_ref.current.coor[1] != ''
       ) {
         // set lại state để tiếp tục thêm cột tiếp theo
+        // Tính tên gợi ý cho lần kế tiếp
+        let nextSuggestedName = ''
+        if (get_active_control_ref.current == 'chen_cot_thu_cong') {
+          // Dựa trên tên vừa chèn để đảm bảo đồng bộ với bản đồ
+          const lastName = (cot_can_them.name || '').trim()
+          const lastNumStr = getCountString(lastName, '').split('').reverse().join('')
+          const posLast = lastNumStr.length
+          const lastNum = isNumber(lastNumStr) ? parseInt(lastNumStr) : 0
+          const prefix = lastName.slice(0, lastName.length - posLast)
+          nextSuggestedName = prefix + (lastNum + 1)
+        } else {
+          // Logic cũ cho các chế độ khác
+          nextSuggestedName =
+            name == ''
+              ? 'COT'
+              : name.slice(0, name.length - pos) + '' + count_display
+        }
         dispatch(
           setStateThemCot({
             ...BASE_COT,
-            name:
-              name == ''
-                ? 'COT'
-                : name.slice(0, name.length - pos) + '' + count_display,
+            name: nextSuggestedName,
             coor: ['', ''],
             action: false,
             cot: cot_can_them.cot
@@ -518,19 +724,126 @@ const RootMap = props => {
           
           // Chèn cột vào vị trí đã tính toán
           if (itemsArray && Array.isArray(itemsArray) && get_index_chen_cot_ref.current >= 0) {
+            // Tính toán tên giống như chèn theo số cột
+            if (get_active_control_ref.current == 'chen_cot_thu_cong' && cotGocInfo) {
+              // Nếu side panel đã gợi ý tên tiếp theo, dùng luôn để đồng bộ với người dùng
+              if (name && name.length > 0) {
+                cot_can_them.name = name
+                console.log('Đặt tên theo side panel:', cot_can_them.name)
+              } else {
+                // Fallback: dựa trên cột liền trước vị trí chèn
+                const insertionIndex = get_index_chen_cot_ref.current
+                let prevIndex = insertionIndex - 1
+                let prevCot = null
+                for (let i = prevIndex; i >= 0; i--) {
+                  if (itemsArray[i] && itemsArray[i].type === 'cot') {
+                    prevCot = itemsArray[i]
+                    break
+                  }
+                }
+                const baseCot = prevCot || cotGocInfo
+                let baseName = (baseCot?.name || '').trim()
+                let baseNumStr = getCountString(baseName, '').split('').reverse().join('')
+                let pos = baseNumStr.length
+                let baseNum = isNumber(baseNumStr) ? parseInt(baseNumStr) : 0
+                let prefix = baseName.slice(0, baseName.length - pos)
+                cot_can_them.name = prefix + (baseNum + 1)
+                console.log('Đã đặt tên cột mới:', cot_can_them.name, '(dựa vào cột trước đó:', baseName, ')')
+              }
+              
+              // Chiếu điểm lên polyline nếu có
+              if (targetFolder) {
+                const allPolylines = []
+                if (targetFolder.list_group_duong_va_cot) {
+                  targetFolder.list_group_duong_va_cot.forEach(item => {
+                    if (item.type === 'duong' || item.type === 'track') {
+                      allPolylines.push(item)
+                    }
+                  })
+                }
+                
+                if (allPolylines.length > 0) {
+                  const nearestPolyline = findNearestPolyline(
+                    { longitude: cotGocInfo.coor[0], latitude: cotGocInfo.coor[1] },
+                    { longitude: cot_can_them.coor[0], latitude: cot_can_them.coor[1] },
+                    allPolylines
+                  )
+                  
+                  if (nearestPolyline && nearestPolyline.list_do_duong) {
+                    console.log('Tìm thấy polyline gần nhất:', nearestPolyline.name)
+                    const projectedPoint = projectPointOntoPolyline(
+                      { longitude: cot_can_them.coor[0], latitude: cot_can_them.coor[1] },
+                      nearestPolyline.list_do_duong
+                    )
+                    cot_can_them.coor = [projectedPoint.longitude, projectedPoint.latitude]
+                    console.log('Đã chiếu điểm lên polyline:', cot_can_them.coor)
+                  }
+                }
+              }
+            }
+            else if (get_active_control_ref.current == 'chen_cot_thu_cong') {
+              // Fallback đặt tên khi không có itemsArray (ví dụ: chưa kịp cache mảng)
+              try {
+                const insertionIndex = get_index_chen_cot_ref.current
+                // Tìm folder theo uuid của cột gốc hoặc current folder
+                let folderRef = null
+                for (let f of list_root_folder) {
+                  if (f.uuid_folder === (cotGocInfo?.uuid_folder || get_current_uuid_folder_ref.current)) {
+                    folderRef = f
+                    break
+                  }
+                }
+                if (folderRef && folderRef.list_group_duong_va_cot) {
+                  // Tìm cột liền trước index để lấy base name
+                  let prevIndex = insertionIndex - 1
+                  let prevCot = null
+                  for (let i = prevIndex; i >= 0; i--) {
+                    const it = folderRef.list_group_duong_va_cot[i]
+                    if (it && it.type === 'cot') { prevCot = it; break }
+                  }
+                  const baseCot = prevCot || cotGocInfo
+                  let baseName = (baseCot?.name || '').trim()
+                  let baseNumStr = getCountString(baseName, '').split('').reverse().join('')
+                  let pos = baseNumStr.length
+                  let baseNum = isNumber(baseNumStr) ? parseInt(baseNumStr) : 0
+                  let prefix = baseName.slice(0, baseName.length - pos)
+                  cot_can_them.name = prefix + (baseNum + 1)
+                  console.log('Fallback đặt tên cột mới:', cot_can_them.name, '(dựa vào:', baseName, ')')
+                }
+              } catch (e) {
+                console.log('Fallback naming error:', e)
+              }
+            }
+            
             // Chèn trực tiếp vào items array
             console.log('Inserting directly into items array at index:', get_index_chen_cot_ref.current)
             console.log('Array before insert:', itemsArray.length, 'items')
             
             try {
-              // Insert vào vị trí index (sau cột gốc, trước cột đích gần nhất)
-              itemsArray.splice(get_index_chen_cot_ref.current, 0, cot_can_them)
+              // Insert vào vị trí index (trước cột đích gần nhất)
+              const insertAt = get_index_chen_cot_ref.current
+              itemsArray.splice(insertAt, 0, cot_can_them)
+              // Không tự động tăng index. Lần click tiếp theo sẽ tính lại vị trí theo phía người dùng chọn.
               console.log('Array after insert:', itemsArray.length, 'items')
               
-              // Update the list - create new array reference to trigger re-render
-              const updatedList = [...list_root_folder]
-              dispatch(changeRootFolder(updatedList))
-              reRenderMap(updatedList)
+              // Update the correct list based on isInNenList flag
+              const isInNenList = cotGocInfo?.isInNenList || false
+              
+              if (isInNenList) {
+                // Update list_root_nen
+                console.log('Updating list_root_nen')
+                let list_root_nen = getItemSessionStorage('root_nen') || []
+                setItemSessionStorage('root_nen', list_root_nen)
+                dispatch(changeRootNen([...list_root_nen]))
+                reRenderNen([...list_root_nen])
+              } else {
+                // Update list_root_folder
+                console.log('Updating list_root_folder')
+                const updatedList = [...list_root_folder]
+                dispatch(changeRootFolder(updatedList))
+                reRenderMap(updatedList)
+              }
+              
               Const_Libs.TOAST.success('Chèn cột thành công')
             } catch (error) {
               console.error('Error inserting point:', error)
@@ -547,10 +860,12 @@ const RootMap = props => {
             )
           }
           
-          // Reset về chế độ thêm cột thông thường
-          dispatch(setActiveControl('them_cot'))
-          // Xóa cột gốc để lần sau phải chọn lại
-          dispatch(setCotGocChenCot(null))
+          // Giữ lại chế độ chèn cột thủ công để có thể chèn tiếp
+          // Không reset về 'them_cot' 
+          // dispatch(setActiveControl('them_cot'))
+          // Không xóa cột gốc để có thể chèn tiếp
+          // dispatch(setCotGocChenCot(null))
+          console.log('Chèn cột thành công, giữ nguyên chế độ chèn để có thể chèn tiếp')
           return
         }
         // thêm cột vào cuối
@@ -584,14 +899,20 @@ const RootMap = props => {
     } else {
       list_root_folder_local.map(item_root => {
         if (item_root.uuid_folder == current_uuid_folder_local) {
-          item_root.list_group_duong_va_cot.map(item_duong_cot => {
-            if (
-              item_duong_cot.type == 'duong' &&
-              item_duong_cot.uuid_duong == paths_duong_local.uuid_duong
-            ) {
-              item_duong_cot.list_do_duong = [paths_duong_local.paths]
-            }
+          // Xóa tất cả các đường cũ trước khi cập nhật
+          item_root.list_group_duong_va_cot = item_root.list_group_duong_va_cot.filter(item => 
+            item.type !== 'duong'
+          )
+          
+          // Thêm đường mới
+          item_root.list_group_duong_va_cot.push({
+            uuid_duong: paths_duong_local.uuid_duong,
+            list_do_duong: [paths_duong_local.paths],
+            active_do_duong: true,
+            type: 'duong',
+            uuid_folder: current_uuid_folder_local
           })
+          
           return 0
         }
       })
@@ -1198,29 +1519,29 @@ const RootMap = props => {
               console.log('Cột gốc:', cotGoc)
               console.log('Click tại:', lon, lat)
               
-              // Find insertion point (now returns object with index and folder info)
+              // Luôn tính lại vị trí chèn theo click hiện tại để cho phép đổi phía giữa các lần chèn
               const insertionInfo = findIndexForManualInsert(cotGoc, lon, lat)
-              
+
               if (insertionInfo.index === -1) {
                 console.error('Không tìm thấy vị trí chèn')
                 Const_Libs.TOAST.error('Không tìm thấy vị trí chèn hợp lệ')
                 return
               }
-              
+
               console.log('Insertion info:', insertionInfo)
-              
-              disabledAllForm()
-              enableFormThemCot()
-              
+
               // Store insertion info including folder and items array reference
               set_index_chen_cot_ref(insertionInfo.index)
               dispatch(setCotGocChenCot({ 
                 ...cotGoc, 
                 targetFolder: insertionInfo.foundInFolder,
-                itemsArray: insertionInfo.items
+                itemsArray: insertionInfo.items,
+                isInNenList: insertionInfo.isInNenList  // Save flag to know which list to update
               }))
-              
               console.log('Đã set index:', insertionInfo.index, 'in folder:', insertionInfo.foundInFolder?.folder_name)
+              
+              disabledAllForm()
+              enableFormThemCot()
               
               dispatch(
                 setStateThemCot({
@@ -1476,6 +1797,18 @@ const RootMap = props => {
   useEffect(() => {
     set_cot_goc_chen_cot_ref(cot_goc_chen_cot)
     console.log('cot_goc_chen_cot_ref updated:', cot_goc_chen_cot)
+    // Khi chọn lại cột gốc để chèn thủ công, reset tên gợi ý ở side panel cho đúng ngữ cảnh
+    try {
+      if (cot_goc_chen_cot && cot_goc_chen_cot.name && get_active_control_ref.current === 'chen_cot_thu_cong') {
+        const baseName = cot_goc_chen_cot.name.trim()
+        const numStr = getCountString(baseName, '').split('').reverse().join('')
+        const pos = numStr.length
+        const baseNum = isNumber(numStr) ? parseInt(numStr) : 0
+        const prefix = baseName.slice(0, baseName.length - pos)
+        const suggested = prefix + (baseNum + 1)
+        dispatch(setStateThemCot({ ...BASE_COT, name: suggested, action: false }))
+      }
+    } catch (e) {}
   }, [cot_goc_chen_cot])
 
   useEffect(() => {
@@ -1496,13 +1829,17 @@ const RootMap = props => {
     set_state_them_cot_ref(state_them_cot)
     if (
       get_active_control_ref.current == 'them_cot' ||
-      get_active_control_ref.current == 'chen_cot'
+      get_active_control_ref.current == 'chen_cot' ||
+      get_active_control_ref.current == 'chen_cot_thu_cong'
     ) {
       $('.header-control').removeClass('active-gray')
       $('.header-control[data-attr="them_cot"]').addClass('active-gray')
       if (get_state_them_cot_ref.current.action != null) {
         if (get_state_them_cot_ref.current.action) {
           // console.log('thêm')
+          console.log('=== CALLING handleThemCot ===')
+          console.log('Active control:', get_active_control_ref.current)
+          console.log('State them cot:', get_state_them_cot_ref.current)
           handleThemCot(get_state_them_cot_ref.current)
         }
       }

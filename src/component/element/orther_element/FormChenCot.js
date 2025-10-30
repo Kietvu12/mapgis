@@ -118,14 +118,6 @@ export const FormChenCot = () => {
           marginTop: '4px'
         }}
       >
-        {/* <a 
-          className='dropdown-item pointer'
-          onClick={handleManualInsert}
-          style={{ padding: '8px 16px', cursor: 'pointer' }}
-        >
-          <i className='tio-edit mr-2'></i>
-          Chèn thủ công
-        </a> */}
         <a 
           className='dropdown-item pointer'
           onClick={handleAutoInsert}
@@ -133,6 +125,14 @@ export const FormChenCot = () => {
         >
           <i className='tio-number mr-2'></i>
           Chèn theo số cột
+        </a>
+        <a 
+          className='dropdown-item pointer'
+          onClick={handleManualInsert}
+          style={{ padding: '8px 16px', cursor: 'pointer' }}
+        >
+          <i className='tio-poi-outlined mr-2'></i>
+          Chèn cột thủ công
         </a>
       </div>
       )}

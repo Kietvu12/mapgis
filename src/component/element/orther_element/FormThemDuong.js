@@ -99,21 +99,23 @@ export const FormThemDuong = props => {
       Const_Libs.TOAST.success('Bạn phải thêm cột trước.')
       return
     }
+    // Thu thập tất cả cột
     item_root.list_group_duong_va_cot.map(item_group_duong_va_cot => {
       if (item_group_duong_va_cot.type == 'cot') {
         arr_cot.push(item_group_duong_va_cot)
       }
     })
+    
+    // Tạo đường từ các cột
     arr_cot = getLineFromPoint(arr_cot)
     let data_duong = { ...paths_duong_ref }
-    // let paths = []
     let arr = getItemSessionStorage('path_line_of_point')
     console.log(arr.length);
-    // for (let i = 0; i < arr.length; i++) {
-    //   paths.push([arr[i], arr[i + 1]])
-    // }
+    
     data_duong = { ...data_duong, paths: getItemSessionStorage('path_line_of_point') }
     set_paths_duong_ref({ ...data_duong })
+    
+    // handleAddCoorToDuong sẽ xóa đường cũ và tạo lại đường mới
     handleAddCoorToDuong()
   }
 

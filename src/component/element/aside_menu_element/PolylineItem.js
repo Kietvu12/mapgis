@@ -138,12 +138,17 @@ export const PolylineItem = props => {
         <span 
           onClick={() => {
             if (data_polyline.list_do_duong && data_polyline.list_do_duong.length > 0) {
-              const midPoint = data_polyline.list_do_duong[0];
-              if (midPoint && midPoint.length >= 2) {
-                setCenterMap(
-                  [parseFloat(midPoint[0]), parseFloat(midPoint[1])],
-                  19
-                );
+              const coordsArray = data_polyline.list_do_duong[0];
+              if (coordsArray && coordsArray.length > 0) {
+                // Get the middle point of the polyline
+                const midIndex = Math.floor(coordsArray.length / 2);
+                const midPoint = coordsArray[midIndex];
+                if (midPoint && midPoint.length >= 2) {
+                  setCenterMap(
+                    [parseFloat(midPoint[0]), parseFloat(midPoint[1])],
+                    19
+                  );
+                }
               }
             }
           }}

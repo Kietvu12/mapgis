@@ -8,6 +8,9 @@ import Graphic from '@arcgis/core/Graphic'
 import GraphicsLayer from '@arcgis/core/layers/GraphicsLayer'
 import TextSymbol from '@arcgis/core/symbols/TextSymbol'
 import CIMSymbol from '@arcgis/core/symbols/CIMSymbol'
+import * as geometryEngine from '@arcgis/core/geometry/geometryEngine'
+import Polyline from '@arcgis/core/geometry/Polyline'
+import Point from '@arcgis/core/geometry/Point'
 import esriConfig from '@arcgis/core/config'
 import marker3 from './../../image/icons8-plus-100.png'
 import marker4 from './../../image/icons8-place-marker-80.png'
@@ -1092,6 +1095,102 @@ export const findMidLatLong = (lst_starend, number) => {
     return arr
   } catch (err) {
     console.log(err)
+  }
+}
+
+export const projectPointOntoPolyline = (point, polylinePaths) => {
+  /**
+   * Chiếu điểm lên polyline gần nhất
+   * @param point: điểm cần chiếu {longitude, latitude}
+   * @param polylinePaths: danh sách các path của polyline
+   * @returns điểm được chiếu {longitude, latitude}
+   */
+  try {
+    const pointGeometry = new Point({
+      longitude: point.longitude,
+      latitude: point.latitude
+    })
+
+    // Tìm đoạn gần nhất và chiếu điểm lên
+    let minDistance = Infinity
+    let closestPoint = point
+
+    for (let path of polylinePaths) {
+      for (let i = 0; i < path.length - 1; i++) {
+        const segment = new Polyline({
+          paths: [
+            [path[i], path[i + 1]]
+          ]
+        })
+
+        // Tìm điểm gần nhất trên polyline
+        const nearestPoint = geometryEngine.nearestVertex(segment, pointGeometry)
+        if (nearestPoint) {
+          const distance = geometryEngine.distance(nearestPoint.vertex, pointGeometry, 'meters')
+          if (distance < minDistance) {
+            minDistance = distance
+            closestPoint = {
+              longitude: nearestPoint.vertex.longitude,
+              latitude: nearestPoint.vertex.latitude
+            }
+          }
+        }
+      }
+    }
+
+    return closestPoint
+  } catch (err) {
+    console.log('Error projecting point onto polyline:', err)
+    return point // Trả về điểm gốc nếu có lỗi
+  }
+}
+
+export const findNearestPolyline = (point1, point2, polylines) => {
+  /**
+   * Tìm polyline gần nhất với 2 điểm
+   * @param point1: điểm đầu {longitude, latitude}
+   * @param point2: điểm cuối {longitude, latitude}
+   * @param polylines: danh sách các polyline
+   * @returns polyline gần nhất hoặc null
+   */
+  try {
+    let bestPolyline = null
+    let minTotalDistance = Infinity
+
+    for (let polyline of polylines) {
+      if (!polyline.active_do_duong || !polyline.list_do_duong) continue
+
+      let totalDistance = 0
+      
+      // Tính khoảng cách từ mỗi điểm đến polyline
+      for (let point of [point1, point2]) {
+        const distances = []
+        for (let path of polyline.list_do_duong) {
+          for (let i = 0; i < path.length - 1; i++) {
+            const p1 = new Point({ longitude: path[i][0], latitude: path[i][1] })
+            const p2 = new Point({ longitude: path[i + 1][0], latitude: path[i + 1][1] })
+            const segment = new Polyline({ paths: [[path[i], path[i + 1]]] })
+            const pointGeometry = new Point({ longitude: point.longitude, latitude: point.latitude })
+            const distance = geometryEngine.distance(p1, pointGeometry, 'meters') + 
+                           geometryEngine.distance(p2, pointGeometry, 'meters')
+            distances.push(distance)
+          }
+        }
+        if (distances.length > 0) {
+          totalDistance += Math.min(...distances)
+        }
+      }
+
+      if (totalDistance < minTotalDistance) {
+        minTotalDistance = totalDistance
+        bestPolyline = polyline
+      }
+    }
+
+    return bestPolyline
+  } catch (err) {
+    console.log('Error finding nearest polyline:', err)
+    return null
   }
 }
 export const getTenCotNoSTT = name_cot => {

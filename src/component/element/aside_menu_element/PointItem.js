@@ -56,7 +56,7 @@ export const handleActiveCot = (
   })
 }
 export const PointItem = props => {
-  const { data_point, index_point, uuid_folder, key } = props
+  const { data_point, index: index_point, uuid_folder, key } = props
   const list_root_folder = useSelector(state => state.baseMap.list_root_folder)
   const control_xoa_nhieu_cot = useSelector(
     state => state.baseMap.control_xoa_nhieu_cot
@@ -185,8 +185,68 @@ export const PointItem = props => {
       reRenderMap([...list_root_folder])
     })
   }, [])
+  const handleDragStart = (e) => {
+    try {
+      e.dataTransfer.effectAllowed = 'move'
+      const payload = JSON.stringify({
+        type: 'cot',
+        uuid_cot: data_point.uuid_cot,
+        uuid_folder: uuid_folder
+      })
+      e.dataTransfer.setData('application/json', payload)
+    } catch (err) {}
+  }
+
+  const handleDragOver = (e) => {
+    e.preventDefault()
+    e.dataTransfer.dropEffect = 'move'
+    // optional visual cue
+    e.currentTarget.classList.add('bg-light')
+  }
+
+  const handleDragLeave = (e) => {
+    e.currentTarget.classList.remove('bg-light')
+  }
+
+  const handleDrop = (e) => {
+    e.preventDefault()
+    e.currentTarget.classList.remove('bg-light')
+    let data
+    try {
+      data = JSON.parse(e.dataTransfer.getData('application/json') || '{}')
+    } catch (err) { data = {} }
+    if (!data || data.type !== 'cot' || !data.uuid_cot) return
+    // Only allow reordering within the same folder for simplicity
+    if (data.uuid_folder !== uuid_folder) return
+
+    const folders = [...list_root_folder]
+    for (let f of folders) {
+      if (f.uuid_folder === uuid_folder && Array.isArray(f.list_group_duong_va_cot)) {
+        const items = f.list_group_duong_va_cot
+        const sourceIndex = items.findIndex(it => it.type === 'cot' && it.uuid_cot === data.uuid_cot)
+        const targetIndex = items.findIndex(it => it.type === 'cot' && it.uuid_cot === data_point.uuid_cot)
+        if (sourceIndex === -1 || targetIndex === -1 || sourceIndex === targetIndex) break
+        const [moved] = items.splice(sourceIndex, 1)
+        const insertAt = sourceIndex < targetIndex ? targetIndex - 1 : targetIndex
+        items.splice(insertAt, 0, moved)
+        dispatch(changeRootFolder([...folders]))
+        reRenderMap([...folders])
+        Const_Libs.TOAST.success('Đã sắp xếp lại cột')
+        saveState('Sắp xếp lại cột')
+        break
+      }
+    }
+  }
+
   return (
-    <li className='nav-item d-flex justify-content-between align-items-center p-1'>
+    <li
+      className='nav-item d-flex justify-content-between align-items-center p-1'
+      draggable
+      onDragStart={handleDragStart}
+      onDragOver={handleDragOver}
+      onDragLeave={handleDragLeave}
+      onDrop={handleDrop}
+    >
       <a
         className='nav-link w-100 pr-1 pl-2 pointer d-flex align-items-center'
         title={data_point.name}
